@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="author" content="Sam">
+        <meta name="description" content="fo learning contents of Hyperlink">
+
+        <!-- The reference "href" given in the link tag below is relative reference,
+             since it's present in the same directory of this html file -->
+             <link rel="icon" href="/src/html5.png" type="image/x-icon">
+             <link rel="stylesheet" href="/src/main.css" type="text/css">
+
+        <title>Hyperlinks and stuff</title>
+
+    </head>
+
+    <body>
+
+        <h1><strong><u>HyperLink</u> :-</strong></h1>
+
+        <hr>
+        <br>
+        <p>This html page will give you a basic understanding of the concepts of the hyperlinking in HTML.</p>
+        <br>
+        <hr>
+
+        <section id="index">
+
+            <h2><u>Index section :</u></h2>
+            <ul>
+                <li><abbr title="Introduction"><a href="#intro">Introduction</a></li></abbr>
+                <li><abbr title="What is Reference?"><a href="#refer">What is Reference ?</a></abbr></li>
+                <li><abbr title="What are Sections?"><a href="#section">What are Sections ?</a></abbr></li>
+                <li><abbr title="About Me"><a href="#about_me">About Me</a></abbr></li>
+            </ul>
+
+        </section>
+
+  
+        <hr>
+
+        <section id="intro">
+
+            <h3><strong><u>Introduction</u> :-</strong></h3>
+            <ul>
+                <li>Hyperlink is a way to link various files, section via various <abbr title="What is Reference?"><a href="#refer">reference</a></abbr>.</li>
+                <li>This can be done using anchor tag ( &lt;a&gt; ).</li>
+                <li>Anchor tag contain various attributes but one of the most common and important attribute is the "href" attribute.</li>
+                <li>"href" ( syntax: &lt;a href="location/reference" &gt;text&lt;/a&gt; ) is the attribute which specifies the <abbr title="what is reference?"><a href="#refer">reference</a></abbr> of the hyperlink.</li>
+                <li>Using Hyperlink we can redirect the current page into another page, move a particular <abbr title="What are Sections?"><a href="#section">section</a></abbr> of the page, download, etc.</li>
+                <li>The hyperlink which you have visited will be in purple color by default.</li>
+                <li>The hyperlink which you haven't visited yet will be in slightly dark blue in color by default.</li>
+            </ul>
+
+            <dl>
+                <dt><strong>Note :</strong></dt>
+                <dd>The color of the visited or not visited hyperlinks can be modified using "<em>CSS</em>".<br>That's why the colour of the hyperlink in this html page differs from the default ones </dd>
+            </dl>
+
+        </section>
+
+        <br>
+        <hr>
+
+        <section id="refer">
+
+            <h3><strong><u>What is reference</u>? :-</strong></h3>
+            <ul>
+                <li>Reference <em>( "href" attribute )</em> is the source of the destination in the ancho tag.</li>
+                <li>Reference can either be absolute reference or relative reference.</li>
+            </ul>
+
+            <dl>
+
+                <dt><strong>Absolute Reference :</strong></dt>
+                <dd>
+
+                    <ul>
+                        <li>Absolute Reference is the type of reference which gives full exact location of the source.</li>
+                        <li>The can it be refering to a source file present in a specific directory of our local machine; Or,</li>
+                        <li>It can be a refering a particular website url.</li>
+                    </ul>
+
+                    example: 
+                    <ul>
+                        <li>Click <abbr title="Clicking this will take you to google"><a href="https://www.google.com/">Google</a></abbr> to open it in the same tab.</li>
+                        <li>Click <abbr title="Clicking this will take you to google"><a href="https://www.google.com/" target="_blank">Google</a></abbr> to open it in the new tab.</li>
+                    </ul>
+
+                </dd>
+
+                <dt><strong>Relative Reference :</strong></dt>
+                <dd>
+
+                    <ul>
+                        <li>Relative Reference is the type of reference we use when the exact full reference location of the source file is not required.</li>
+                        <li>This reference can be applied when the source file is present in the current directory of the html page.</li>
+                        <li>It can refer to the local source files or the internal <abbr title="What are Sections?"><a href="#section">sections</a></abbr> of the html page.</li>
+                    </ul>
+
+                    example: 
+                    <ul>
+                        <li>Click <abbr title="Clicking this will take you to About_me.html"><a href="about_me.html">About me</a></abbr> to open it in the same tab.</li>
+                        <li>Click <abbr title="Clicking this will take you to About_me.html"><a href="about_me.html">About me</a></abbr> to open it in the new tab.</li>
+                    </ul>
+
+                </dd>
+
+                <dt><strong>Note :</strong></dt>
+                <dd>
+                    By using any of the references you can create a hyperlink which not only redirect into other pages but also provide a option for creating a download link. 
+                    <br>You can create a download link by using "download" attribute in anchor tag, just as given below,
+                    <ul>
+                        <li>Using Absolute Reference : <a href="https://cdn-icons-png.flaticon.com/512/919/919827.png">Download icon</a>.</li>
+                        <li>Using Relative Reference : <a href="/src/html5.png" download>Download icon</a>.</li>
+                    </ul>
+                </dd>
+
+            </dl>
+
+        </section>
+
+        <br>
+        <hr>
+
+        <section id="section">
+
+            <h3><strong><u>What are Sections</u>? :-</strong></h3>
+            <ul>
+                <li>Sections are the partition done to seperation into different part of the html page.</li>
+                <li>Sections helps us to easily navigate throught the html page with huge content.</li>
+                <li>We can divide out html page into section by using the tag "&lt;section&gt;".</li>
+                <li>If we use the sections tag then we must specific an attribute called "id".</li>
+                <li>without the attribute "id" we can not specify the <abbr title="What is Reference?"><a href="#refer">reference</a></abbr> to navigate throught the page.</li>
+                <li>Syntax: &lt;section id="name_of_the_section"&gt; content &lt;/section&gt;</li>
+                <li>After creating sections in out html page, we have to use the anchor tag to navigate throught the page.</li>
+                <li>Syntax: &lt;a href="#name_of_the_section"&gt; hyper link statement &lt;/a&gt;</li>
+            </ul>
+            <dl>
+                <dt>Note :</dt>
+                <dd>
+                    You have already came across the concept of section in the index section at the beginning of this html page.
+                    <br>You can reach the index section, just by clicking "<abbr title="Index"><a href="#index">Index</a></abbr>".
+                </dd>
+            </dl>
+        </section>
+
+        <br>
+        <hr>
+
+        <section id="about_me">
+            <h3><strong><u><abbr title="redirect to about me"><a href="about_me.html">About Me</a></abbr></u>.</strong></h3>
+        </section>
+
+        <br>
+        <hr>
+
+        <p><a href="#">Go back to Top</a></p>
+
+        <hr>
+
+        <p><em><abbr title="it's not real">&copy;Shamith2022</abbr></em></p>
+
+    </body>
+
+</html>
