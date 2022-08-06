@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <!-- This is the head section -->
+    <head>
+        
+        <!-- This the meta data which specify the protocol and other information about the html page-->
+        <meta charset="UTF-8">
+        <meta name="author" content="Sam">
+        <meta name="description" content="For practising basic of texting in html">
+
+        <!-- This is the linking section, this section is required to link various files required by a html page --> 
+        <link rel="icon" href="html5.png" type="image/icon-x">
+        <link rel="stylesheet" href="main.css" type="text/css">
+
+        <!-- This the title attribute which is used specify the name/title of the html page -->
+        <title>Lists</title>
+
+    </head>
+
+    <body>
+        
+        <!-- Underlined Strong Heading -->
+        <h1><u><strong>List :-</strong></u></h1>
+
+        <dl>
+
+            <dt>Ordered Lists :-</dt>
+            <dd>
+
+                <p> Ordered list are the list in which each individual list item ( &lt;li&gt; ) is denoted using (by default) numbers, <br>Just as given below,</p>
+                <ol>
+                    <li>First we have to use attribute &lt;ol&gt; to create a list.</li>
+                    <li>Then we can add as many list items as we want using &lt;li&gt; attribute.</li>
+                    <li>Then it will display the list as seperate point/items denoted by numbers.</li>
+                </ol>
+
+                <p>In Addition to that, we can also change the types in ordered as roman numbers, alphabets, etc...</p>
+                <h3>For example : </h3>
+                <ol type="a">
+                    <li>First we have to use attribute &lt;ol&gt; to create a list.</li>
+                    <li>Then we have to specify the type as ( &lt;ol type = 'a'&gt;, for this example ).</li>
+                    <li>Then we can add as many list items as we want using &lt;li&gt; attribute.</li>
+                    <li>Then it will display the list as seperate point/items denoted by numbers.</li>
+                </ol>
+
+            </dd>
+
+            <dt>Unordered Lists :-</dt>
+            <dd>
+
+                <p> Unordered list are the list in which each individual list item ( &lt;li&gt; ) is denoted using (by default) dots, <br>Just as given below,</p>
+                <ul>
+                    <li>It is similar to the Ordered list but the only different is that, Ordered list uses numbers and Unordered don't.</li>
+                    <li>So, First we have to use attribute &lt;ul&gt; to create a list.</li>
+                    <li>Then we can add as many list items as we want using &lt;li&gt; attribute.</li>
+                    <li>Then it will display the list as seperate point/items denoted by numbers.</li>
+                </ul>
+
+            </dd>
+
+            <dt>Description List :-</dt>
+            <dd>
+                <p> Description List is a trick one. Unlike other two list attribute, Description list has two attribute per item <br>and they are used just as given below,</p>
+                <dl>
+
+                    <dt>Step One :</dt>
+                    <dd>We create a description list using &lt;dl&gt; attribute.</dd>
+
+                    <dt>Step Two :</dt>
+                    <dd>we create a description title using &lt;dt&gt; attribute within the description list.</dd>
+
+                    <dt>Step Three :</dt>
+                    <dd>After giving a description title, we will give description detail to the title using &lt;dd&gt; attribute under the description title.</dd>
+
+                    <dt>Step Four :</dt>
+                    <dd>It's done, the output will be shown in a sub heading hierarchy.</dd>
+
+                    <dt>Note :</dt>
+                    <dd>Most of <strong>this</strong> html is done using description list.</dd>
+
+                </dl>
+
+            </dd>
+            
+        </dl>
+
+    </body>
+
+</html>
