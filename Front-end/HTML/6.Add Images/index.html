@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta chartset="UTF-8">
+        <meta name="author" content="Sam">
+        <meta name="description" content="Learning to add Images to html">
+
+        <link rel="icon" href="/src/html5.png" type="image/png">
+        <link rel="stylesheet" href="/src/main.css" type="text/css">
+        
+        <title>Add Images</title>
+
+    </head>
+
+    <body>
+
+        <h1>Adding Images</h1>
+
+        <p>
+            <br>We can add an image using the tag &lt;imag&gt;. This tag does not have a closing tag. 
+            <br>We add a '/' at the end of the image tag, it mean the tag is self closing.
+            <br>It really matters when we are using React. but from HTML5 it really doesn't matter
+            <br>
+            <br>The image tag consists of mainly 2 types of attributes and they are: "src" and "alt" attributes.
+            <br>The 'src' attribute is used to specify the source of the image tag and,
+            <br>the 'alt' attribute is used to specify the alternative description of the image tag which means,
+            <br>when the src attribute is broken then it will display the alt attribute value instead.
+            <br>If you want you can also add title to the image and it works just like the abbreviation tag for images.
+            <br>
+            <br>Syntax: &lt;imag src="location" alt="text title="text" /&gt;
+            <br>Example:
+        </p>
+
+        <img src="/src/img/html_logo_300x300.png" alt="html logo" title="html logo" />
+
+        <br>
+
+        <p>
+            <br>We can add simply add images to the page using the above info.
+            <br>But, Now a days it has become crucial to add/specify few more elements.
+            <br>And they are:
+            <br>"width", "height", "loading"
+            <br>
+            <br>widith - specifies the width of the image.
+            <br>height - specifies the height of the image
+            <br>loading - specifies the mode of loading the image.
+            <br>
+            <br>We need to specify the width and height of the image to avoid problems caused by cummulative layout shift,
+            <br>this happens when the html page is loaded in a different device than the current browser.
+            <br>By specifying the width and height, we can tell the html page to leave a certain part of the page from the image.
+            <br>
+            <br>by default, the loading attribute is set with "eager" mode which mean it will load the image at the time of loading
+            <br>the page immediately, This may delay loading of the html page. By setting few images with "lazy" mode of loading,
+            <br>it helps the page load even faster. The lazy mode can be useful when we assgin the mode to the image which below the 
+            <br>fold ( fold means the part of the page we are able to see ).
+            <br>
+            <br>Syntax: &lt;imag src="location" alt="text title="text" widith="num px" height="num px" loading="mode" /&gt;
+            <br>
+            <br><em>to show case the lazy mode we have to create a lot of space to create a lower fold.</em>
+            <br><em>So to create them we will type "br*num_of_times" to create a lower fold.</em>
+            <br>Example:
+        </p>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <img src="/src/img/caribbean_400_x_225.jpg" alt="caribbean.jpg" title="caribbean" width="400" height="225" loading="lazy"/>
+
+        <br>
+        <br>
+
+        <p>
+            we can create an indentation for images by making them an figue, using figure tag.
+            <br> we can also give a caption the the image using figcaption tag.
+            <br> we can use the figure tag not only to images but also to any paragraph or content elements.
+            <br>
+            <br>Syntax: &lt;figure&gt; content &lt;figcaption&gt; "caption" &lt;/figcaption&gt; &lt;/figure&gt;
+            <br>
+            <br>Example:
+        </p>
+        <figure>
+            <img src="/src/img/vacation_400_x_267.jpg" alt="vaction.jpg" title="vaction" width="400" height="267" loading="lazy" />
+            <figcaption>
+                I need a vaction !!!...
+            </figcaption>
+        </figure>
+
+    </body>
+
+</html>
