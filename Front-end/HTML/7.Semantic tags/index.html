@@ -23,9 +23,9 @@
 
             <hr>
             
-            <nav aria-labelledby="Primary Index">
+            <nav aria-labelledby="Primary_Index">
 
-                <h2 id="Primary Index">Index</h2>
+                <h2 id="Primary_Index">Index</h2>
                 <ul>
                     <li><a href="#intro">What is/are Semantic Tag(s) ?</a></li>
                     <li><a href="#header_footer_main">Header, Footer and Main Tags</a></li>
@@ -46,38 +46,35 @@
             <article id="intro">
 
                 <h3>What is/are Semantic Tag(s) ?</h3>
-                <dl>
-                    <dd>
-                        <p>
-                            Semantic Tags are the tags which are used to provide meaning to the html document.
-                            <br>Even thought usage of Semantic Tags doesn't reflect anything on the output of the html document,
-                            <br>It's still present. These semantic tags provide the meaning to the html document which is used by
-                            <br>other assistance file for various purposes, like how we specify some html tags in CSS for style.
-                        </p>
-                        
-                        <nav aria-label="Secondary Index">
-                        
-                            <p>Some of the Semantic tags are :</p>
-                                <ul>
-                                    <li><a href="#header">header</a></li>
-                                    <li><a href="#footer">footer</a></li>
-                                    <li><a href="#main">main</a></li>
-                                    <li><a href="#nav">navigation</a></li>
-                                    <li><a href="#aside_details_summary">aside</a></li>
-                                    <li><a href="#aside_details_summary">details</a></li>
-                                    <li><a href="#aside_details_summary">summary</a></li>
-                                    <li><a href="#section_article">section</a></li>
-                                    <li><a href="#section_article">article</a></li>
-                                    <li><a href="#div_span">div</a></li>
-                                    <li><a href="#div_span">span</a></li>
-                                </ul>
+                <figure>
 
-                        </nav>
+                    <p>
+                        Semantic Tags are the tags which are used to provide meaning to the html document.
+                        <br>Even thought usage of Semantic Tags doesn't reflect anything on the output of the html document,
+                        <br>It's still present. These semantic tags provide the meaning to the html document which is used by
+                        <br>other assistance file for various purposes, like how we specify some html tags in CSS for style.
+                    </p>
+                    
+                    <nav aria-label="Secondary Index">
+                    
+                        <p>Some of the Semantic tags are :</p>
+                            <ul>
+                                <li><a href="#header">header</a></li>
+                                <li><a href="#footer">footer</a></li>
+                                <li><a href="#main">main</a></li>
+                                <li><a href="#nav">navigation</a></li>
+                                <li><a href="#aside_details_summary">aside</a></li>
+                                <li><a href="#aside_details_summary">details</a></li>
+                                <li><a href="#aside_details_summary">summary</a></li>
+                                <li><a href="#section_article">section</a></li>
+                                <li><a href="#section_article">article</a></li>
+                                <li><a href="#div_span">div</a></li>
+                                <li><a href="#div_span">span</a></li>
+                            </ul>
 
-                    </dd>
-                </dl>
+                    </nav>
 
-                
+                </figure>
 
                 <hr>
 
@@ -86,180 +83,152 @@
             <article id="header_footer_main">
 
                 <h3>Header, Footer and Main Tags :</h3>
-                <dl>
+                <figure>
 
-                    <dd>
-                        <p>
-                            <a href="#header">Header</a>, <a href="#footer">footer</a> and <a href="#main">main</a> tags are the tags which describes various sections of a html document.
-                            <br>We divide a bulk amount of html code into parts for better orgainzation and to increase the
-                            <br>ease of access various parts of html document.
-                        </p>
-                    </dd>
-                    <dd>
+                    <p>
+                        <a href="#header">Header</a>, <a href="#footer">footer</a> and <a href="#main">main</a> tags are the tags which describes various sections of a html document.
+                        <br>We divide a bulk amount of html code into parts for better orgainzation and to increase the
+                        <br>ease of access various parts of html document.
+                    </p>
+                    <dl>
+                        <dt>Basic structure of these semantic tags :</dt>
+                        <dd>
+                            <p>
+                                <br>&lt;header id="text"&gt;
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;content
+                                <br>&lt;/header&gt;
+                                <br>
+                                <br>&lt;main&gt;
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;content
+                                <br>&lt;/main&gt;
+                                <br>
+                                <br>&lt;footer id="text"&gt;
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;content
+                                <br>&lt;/footer&gt;
+                            </p>
+                        </dd>
+                    </dl>
 
+                    <div id="header">
                         <dl>
-                            <dt>Basic structure of these semantic tags :</dt>
+                            <dt><b>Header :</b></dt>
                             <dd>
-                                <p>
-                                    <br>&lt;header id="text"&gt;
-                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;content
-                                    <br>&lt;/header&gt;
-                                    <br>
-                                    <br>&lt;main&gt;
-                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;content
-                                    <br>&lt;/main&gt;
-                                    <br>
-                                    <br>&lt;footer id="text"&gt;
-                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;content
-                                    <br>&lt;/footer&gt;
-                                </p>
+                                <ul>
+                                    <li>Header tag describes the part of html document as head.</li>
+                                    <li>A html document can contain multiple headers.</li>
+                                    <li>If you wish to use multiple headers then you must specify an accessing names for each of them.</li>
+                                    <li>
+                                        A part of html code is defined as header by wrapping the code as:
+                                        <br>
+                                        <br>&lt;header id="text"&gt;
+                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;content
+                                        <br>&lt;/header&gt;
+                                    </li>
+                                </ul>
                             </dd>
                         </dl>
+                    </div>
+    
+                    <div id="footer">
+                        <dl>
+                            <dt><b>Footer :</b></dt>
+                            <dd>
+                                <ul>
+                                    <li>Footer tag describes the ending part of html document.</li>
+                                    <li>Just like header tag, a html document can contain multiple footers.</li>
+                                    <li>If you wish to use multiple footers then you must specify an accessing names for each of them.</li>
+                                    <li>
+                                        A part of html code is defined as footer by wrapping the code as:
+                                        <br>
+                                        <br>&lt;footer id="text"&gt;
+                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;content
+                                        <br>&lt;/footer&gt;
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
+    
+                    <div id="main">
+                        <dl>
+                            <dt><b>Main :</b></dt>
+                            <dd>
+                                <ul>
+                                    <li>Main tag describes the the whole main part of html document.</li>
+                                    <li>Unlike Header & Footer tags, we can not have multiple main tags for a html document.</li>
+                                    <li>An Single html document contains <strong>ONLY A SINGLE</strong> main tag.</li>
+                                    <li>
+                                        A part of html code is defined as main by wrapping the code as:
+                                        <br>
+                                        <br>&lt;main&gt;
+                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;content
+                                        <br>&lt;/main&gt;
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
 
-                    </dd>
+                </figure>
 
-                </dl>
-
-                <section id="header">
-
-                    <dl>
-
-                        <dt><b>Header :</b></dt>
-                        <dd>
-                            <ul>
-                                <li>Header tag describes the part of html document as head.</li>
-                                <li>A html document can contain multiple headers.</li>
-                                <li>If you wish to use multiple headers then you must specify an accessing names for each of them.</li>
-                                <li>
-                                    A part of html code is defined as header by wrapping the code as:
-                                    <br>
-                                    <br>&lt;header id="text"&gt;
-                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;content
-                                    <br>&lt;/header&gt;
-                                </li>
-                            </ul>
-                        </dd>
-
-                    </dl>
-
-                </section>
-
-                <section id="footer">
-
-                    <dl>
-
-                        <dt><b>Footer :</b></dt>
-                        <dd>
-                            <ul>
-                                <li>Footer tag describes the ending part of html document.</li>
-                                <li>Just like header tag, a html document can contain multiple footers.</li>
-                                <li>If you wish to use multiple footers then you must specify an accessing names for each of them.</li>
-                                <li>
-                                    A part of html code is defined as footer by wrapping the code as:
-                                    <br>
-                                    <br>&lt;footer id="text"&gt;
-                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;content
-                                    <br>&lt;/footer&gt;
-                                </li>
-                            </ul>
-                        </dd>
-
-                    </dl>
-
-                </section>
-
-                <section id="main">
-
-                    <dl>
-
-                        <dt><b>Main :</b></dt>
-                        <dd>
-                            <ul>
-                                <li>Main tag describes the the whole main part of html document.</li>
-                                <li>Unlike Header & Footer tags, we can not have multiple main tags for a html document.</li>
-                                <li>An Single html document contains <strong>ONLY A SINGLE</strong> main tag.</li>
-                                <li>
-                                    A part of html code is defined as main by wrapping the code as:
-                                    <br>
-                                    <br>&lt;main&gt;
-                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;content
-                                    <br>&lt;/main&gt;
-                                </li>
-                            </ul>
-                        </dd>
-
-                    </dl>
-
-                    <hr>
-
-                </section>
+                <hr>
 
             </article>
 
             <article id="nav">
 
-                <section id="description">
-
-                    <h3>Navigation Tag :</h3>
-                    <dl>
-                        <dd>
-                            <p>
-                                Navigation tag ( &lt;nav&gt; ) is an semantic tag which is used to specify that the part which lies within
-                                <br>these tags has multiple hyperlinks which helps us navigate through html document(s).
-                                <br>Navigation tag has two ways to specify an accessing name and they are,
-                            </p>
-                            <ul>
-                                <li>Using attribute called "aria-label",</li>
-                                <li>Using attribute called "aria-labelledby"</li>
-                            </ul>
-                        </dd>
-                    </dl>
-
-                </section>
+                <h3>Navigation Tag :</h3>
+                <div id="description">
+                    <figure>
+                        <p>
+                            Navigation tag ( &lt;nav&gt; ) is an semantic tag which is used to specify that the part which lies within
+                            <br>these tags has multiple hyperlinks which helps us navigate through html document(s).
+                            <br>Navigation tag has two ways to specify an accessing name and they are,
+                        </p>
+                        <ul>
+                            <li>Using attribute called "aria-label",</li>
+                            <li>Using attribute called "aria-labelledby"</li>
+                        </ul>
+                    </figure>
+                </div>
 
                 <br>
 
-                <section id="types">
-                    
-                    <dl>
-                        <dd>
-                            <dl>
+                <div id="types">
 
-                                <dt>Using attribute called "aria-label" -</dt>
-                                <dd>
-                                    <p>
-                                        We use this attribute when we are directly specifing the access name of the navigation tag.
-                                        <br>Structure looks some like,
-                                        <br>
-                                        <br>&lt;nav aria-label="name"&gt;
-                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;content
-                                        <br>&lt;/nav&gt;
-                                    </p>
-                                </dd>
+                    <figure>
+                        <dl>
+                            <dt>Using attribute called "aria-label" -</dt>
+                            <dd>
+                                <p>
+                                    We use this attribute when we are directly specifing the access name of the navigation tag.
+                                    <br>Structure looks some like,
+                                    <br>
+                                    <br>&lt;nav aria-label="name"&gt;
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;content
+                                    <br>&lt;/nav&gt;<br>
+                                </p>
+                            </dd>
+    
+                            <dt>Using attribute called "aria-labelledby" -</dt>
+                            <dd>
+                                <p>
+                                    We use this attribute when we are depending upon other tag for the access name.
+                                    <br>In the present html document, the index is used this attribute to get an access name for it.
+                                    <br>Structure looks some like,
+                                    <br>
+                                    <br>&lt;nav aria-labelledby="name"&gt;
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h2 id="name"&gt;heading&lt;/h2&gt;
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;content
+                                    <br>&lt;/nav&gt;
+                                    <br>
+                                    <br><em>Here, as we can see. The access name of the naviagtion label is depended upon h2 heading tag.</em>
+                                </p>
+                            </dd>
+                        </dl>
+                    </figure>
 
-                                <br>
-
-                                <dt>Using attribute called "aria-labelledby" -</dt>
-                                <dd>
-                                    <p>
-                                        We use this attribute when we are depending upon other tag for the access name.
-                                        <br>In the present html document, the index is used this attribute to get an access name for it.
-                                        <br>Structure looks some like,
-                                        <br>
-                                        <br>&lt;nav aria-labelledby="name"&gt;
-                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h2 id="name"&gt;heading&lt;/h2&gt;
-                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;content
-                                        <br>&lt;/nav&gt;
-                                        <br>
-                                        <br><em>Here, as we can see. The access name of the naviagtion label is depended upon h2 heading tag.</em>
-                                    </p>
-                                </dd>
-                                
-                            </dl>
-                        </dd>
-                    </dl>
-
-                </section>
+                </div>
 
             </article>
 
@@ -268,46 +237,38 @@
             <article id="aside_details_summary">
 
                 <h3>Aside, details, summary Tags</h3>
-                <dl>
-
-                    <dd>
-                        <p>
-                            Aside is an semantic tag which is used to specify a part of html document as a side-note of some other content.
-                            <br>The aside content should be indirectly related to the surrounding content. These are used to placed 
-                            <br>some content as a sidebar in a document.
-                            <br>
-                            <br>Details is another semantice tag which is used to specify a part of html document i.e., the content palce in
-                            <br>between tags. This semantice tag creates an interaction between the use and the html page, by showing & hiding
-                            <br>the content placed in between these tags. <em>By default, the content placed in these tags are hidden.</em>
-                            <br>
-                            <br>The summary tag is just an inter tag of details tag, which concatnates the content place in between the tags to
-                            <br>the small arrow button which is used to show/hide the contents of the details tag.
-                        </p>
-                    
-                        <p>
-                            <br>The syntax of these tag be like,
-                            <br>
-                            <br>&lt;aside&gt;
-                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;details&gt;
-                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;summary&gt;
-                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;content
-                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/summary&gt;
-                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/details&gt;
-                            <br>&lt;/aside&gt;
-                            <br>
-                            <br>The output will be like,
-                            <br>
-                            <aside>
-                                <details>
-                                    <summary>Click here to open the hidden content.</summary>
-                                    <p>This the hidden content.</p>
-                                </details>
-                            </aside>
-                        </p>
-
-                    </dd>
-
-                </dl>
+                <figure>
+                    <p>
+                        Aside is an semantic tag which is used to specify a part of html document as a side-note of some other content.
+                        <br>The aside content should be indirectly related to the surrounding content. These are used to placed 
+                        <br>some content as a sidebar in a document.
+                        <br>
+                        <br>Details is another semantice tag which is used to specify a part of html document i.e., the content palce in
+                        <br>between tags. This semantice tag creates an interaction between the use and the html page, by showing & hiding
+                        <br>the content placed in between these tags. <em>By default, the content placed in these tags are hidden.</em>
+                        <br>
+                        <br>The summary tag is just an inter tag of details tag, which concatnates the content place in between the tags to
+                        <br>the small arrow button which is used to show/hide the contents of the details tag.
+                        <br>The syntax of these tag be like,
+                        <br>
+                        <br>&lt;aside&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;details&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;summary&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;content
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/summary&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/details&gt;
+                        <br>&lt;/aside&gt;
+                        <br>
+                        <br>The output will be like,
+                        <br>
+                    </p>
+                    <aside>
+                        <details>
+                            <summary>Click here to open the hidden content.</summary>
+                            <p>This the hidden content.</p>
+                        </details>
+                    </aside>
+                </figure>
 
             </article>
 
@@ -316,50 +277,45 @@
             <article id="section_article">
 
                 <h3>Section vs article Tags</h3>
-                <dl>
-                    <dd>
+                <figure>
+                    <p>
+                        Section and article tags are the semantic tags which are used to divide the html document for a better orgainzation and
+                        <br>control over the various sections in the body of the html.
+                    </p>
 
-                        <p>
-                            Section and article tags are the semantic tags which are used to divide the html document for a better orgainzation and
-                            <br>control over the various sections in the body of the html.
-                        </p>
+                    <dl>
+                        <dt><b>Section :</b></dt>
+                        <dd>
+                            <p>
+                                Section tag is an semantic tag which can be used to divide the html document into various section.
+                                <br>We use this tag where we want to divide a part of content which might not have a "complete" meaning on it's own.
+                                <br>Section tag has the attribute called "id" which helps the developers to give a specific accessing name for the section.
+                                <br>
+                                <br>A basic structure of a section tag looks like,
+                                <br>
+                                <br>&lt;section id="accessing name"&gt;
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;content&gt;
+                                <br>&lt;/section&gt;
+                            </p>
+                        </dd>
 
-                        <dl>
-
-                            <dt><b>Section :</b></dt>
-                            <dd>
-                                <p>
-                                    Section tag is an semantic tag which can be used to divide the html document into various section.
-                                    <br>We use this tag where we want to divide a part of content which might not have a "complete" meaning on it's own.
-                                    <br>Section tag has the attribute called "id" which helps the developers to give a specific accessing name for the section.
-                                    <br>
-                                    <br>A basic structure of a section tag looks like,
-                                    <br>
-                                    <br>&lt;section id="accessing name"&gt;
-                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;content&gt;
-                                    <br>&lt;/section&gt;
-                                </p>
-                            </dd>
-
-                            <dt><b>Article :</b></dt>
-                            <dd>
-                                <p>
-                                    Just like Section tag, Article tag is an semantic tag which can also be used to divide the html document into various parts.
-                                    <br>We use this tag where we want to divide a part of content which has a well-defined meaning on it's own.
-                                    <br>Similar to section attribute, Article tag has th attribute called "id" which helps the developers to give a specific accessing
-                                    <br> name for the section.
-                                    <br>
-                                    <br>A basic structure of a section tag looks like,
-                                    <br>
-                                    <br>&lt;article id="accessing name"&gt;
-                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;content&gt;
-                                    <br>&lt;/article&gt;
-                                </p>
-                            </dd>
-                        </dl>
-
-                    </dd>
-                </dl>
+                        <dt><b>Article :</b></dt>
+                        <dd>
+                            <p>
+                                Just like Section tag, Article tag is an semantic tag which can also be used to divide the html document into various parts.
+                                <br>We use this tag where we want to divide a part of content which has a well-defined meaning on it's own.
+                                <br>Similar to section attribute, Article tag has th attribute called "id" which helps the developers to give a specific accessing
+                                <br> name for the section.
+                                <br>
+                                <br>A basic structure of a section tag looks like,
+                                <br>
+                                <br>&lt;article id="accessing name"&gt;
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;content&gt;
+                                <br>&lt;/article&gt;
+                            </p>
+                        </dd>
+                    </dl>
+                </figure>
 
             </article>
 
@@ -368,41 +324,38 @@
             <article id="div_span">
 
                 <h3>Div & span Tags</h3>
-                <dl>
-                    <dd>
-                        <p>
-                            Div and span tags are very similar to the <a href="#section_article">Section & article Tags</a>.
-                            <br>The main difference between Div & span tags and Section & article is that,
-                            <br>div and span tags doesn't have any semantic meaning by themselves, so we need to use CSS or any other external source,
-                            <br>to provide the meaning of these tags. Unlike div & span tags, <a href="#section_article">Section & article Tags</a> have thier
-                            <br>own semantic meaning.
-                            <br>
-                            <br>div tag is used to divide a section of html document but the span tag is used for seperating small parts of the html document.
-                            <br>Down below are given their basic structures.
-                        </p>
+                <figure>
+                    <p>
+                        Div and span tags are very similar to the <a href="#section_article">Section & article Tags</a>.
+                        <br>The main difference between Div & span tags and Section & article is that,
+                        <br>div and span tags doesn't have any semantic meaning by themselves, so we need to use CSS or any other external source,
+                        <br>to provide the meaning of these tags. Unlike div & span tags, <a href="#section_article">Section & article Tags</a> have thier
+                        <br>own semantic meaning.
+                        <br>
+                        <br>div tag is used to divide a section of html document but the span tag is used for seperating small parts of the html document.
+                        <br>Down below are given their basic structures.
+                    </p>
 
-                        <dl>
+                    <dl>
 
-                            <dt><b>Div tag :</b></dt>
-                            <dd>
-                                <p>
-                                    &lt;div id="accessing name"&gt;
-                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;content&gt;
-                                    <br>&lt;/div&gt;
-                                </p>
-                            </dd>
+                        <dt><b>Div tag :</b></dt>
+                        <dd>
+                            <p>
+                                &lt;div id="accessing name"&gt;
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;content&gt;
+                                <br>&lt;/div&gt;
+                            </p>
+                        </dd>
 
-                            <dt><b>span tag :</b></dt>
-                            <dd>
-                                <p>
-                                    &lt;span&gt;&nbsp;&nbsp;&lt;content&gt;&nbsp;&nbsp;&lt;/span&gt;
-                                </p>
-                            </dd>
+                        <dt><b>span tag :</b></dt>
+                        <dd>
+                            <p>
+                                &lt;span&gt;&nbsp;&nbsp;&lt;content&gt;&nbsp;&nbsp;&lt;/span&gt;
+                            </p>
+                        </dd>
 
-                        </dl>
-
-                    </dd>
-                </dl>
+                    </dl>
+                </figure>
 
             </article>
 
