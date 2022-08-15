@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="author" content="Sam">
+        <meta name="description" content="Learning to implement tables in html">
+
+        <link rel="icon" href="/src/html5.png" type="image/icon-x">
+        <link rel="stylesheet" href="/src/main.css" type="text/css">
+
+        <title>Tables</title>
+
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Tables :-</h1>
+        </header>
+
+        <hr>
+
+        <main>
+
+            <nav>
+                    <p>We can implement the table in the html by using the following tags :</p>
+                    <ul>
+                        <li><a href="#table">Table tag ( &lt;table&gt; )</a></li>
+                        <li><a href="#theading">Table Heading ( &lt;th&gt; )</a></li>
+                        <li><a href="#trow">Table Row tag ( &lt;tr&gt; )</a></li>
+                        <li><a href="#tdata">Table Data tag ( &lt;td&gt; )</a></li>
+                    </ul>
+    
+                    <br>
+    
+                    <p>We can also add semantics to tables, by using the following tags :</p>
+                    <ul>
+                        <li><a href="#tcaption">caption ( &lt;caption&gt; )</a></li>
+                        <li><a href="#theader">Table Header ( &lt;thead&gt; )</a></li>
+                        <li><a href="#tbody">Table body ( &lt;tbody&gt; )</a></li>
+                        <li><a href="#tfooter">Table Footer ( &lt;tfoot&gt; )</a></li>
+                    </ul>
+
+                    <br>
+
+                    <p>Take look at an <a href="#example">example of table</a> created using the topics mentioned above.</p>
+            </nav>
+
+            <hr>
+
+            <article id="table">
+                <h2>Table tag :</h2>
+                <figure>
+                    <p>
+                        Table is the tag which is used to declare the content as a table.
+                        <br>Tables are special and different for most of the basic tags.
+                        <br>Unlike heading, paragraph tags; these tags occupies space according to the content given to it.
+                        <br>When you are using dev tools. You can clearly see the margin, the orange part beside the table.
+                        <br>This orange part is the unoccupied space, the space left after making a table.
+                        <br>
+                        <br>Syntax/Basic Structure:
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;table&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;content
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/table&gt;
+                    </p>
+                </figure>
+            </article>
+
+            <hr>
+
+            <article id="trow">
+                <h2>Table Row tag :</h2>
+                <figure>
+                    <p>
+                        Table row tag is one of the main tag used for creating a table in html. The table of html 
+                        <br>are made using the <a href="#trow">row tag</a> and the <a href="#tdata">table data tag</a>.
+                        <br>when we use an table row tag, it will create a new row in the table which can contain many columns.
+                        <br>
+                        <br>Syntax/Basic Structure:
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;table&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;content
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/table&gt;
+                    </p>
+                </figure>
+            </article>
+
+            <hr>
+
+            <article id="theading">
+                <h2>Table Heading tag :</h2>
+                <figure>
+                    <p>
+                        Table heading tag is the tag which is used as an heading of a section of table.
+                        <br>These section can be either row-wise or column-wise. The table heading tag
+                        <br>has an attribute called "scope" which helps to provide information about the
+                        <br>heading of the table <em>(like whether it's row-wise or col-wise)</em>
+                        <br>
+                        <br>Syntax/Basic Structure:
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;table&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th scope="row/col"&gt; content &lt;/th&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/table&gt;
+                    </p>
+                </figure>
+            </article>
+
+            <hr>
+
+            <article id="tdata">
+                <h2>Table Data tag :</h2>
+                <figure>
+                    <p>
+                        Table data tag is one of the main tag used for creating a table in html. The table of html 
+                        <br>are made using the <a href="#trow">table row tag</a> and the <a href="#tdata">table data tag</a>.
+                        <br>when we use an table data tag, it will create a column using the data given between these tags.
+                        <br>
+                        <br>Syntax/Basic Structure:
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;table&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th scope="row"&gt; content &lt;/th&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt; content &lt;/td&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/table&gt;
+                    </p>
+                </figure>
+            </article>
+
+            <hr>
+
+            <article id="caption">
+                <h2>Caption tag :0</h2>
+                <figure>
+                    <p>
+                        Caption tag is a semantic tag used inside tables. The caption tag provide a title-like caption to the table
+                        <br>
+                        <br>Syntax/Basic Structure:
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;table&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;caption&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; content 
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/caption&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th scope="row"&gt; content &lt;/th&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt; content &lt;/td&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/table&gt;
+                    </p>
+                </figure>
+            </article>
+
+            <hr>
+
+            <article id="theader">
+                <h2>Table Header tag :0</h2>
+                <figure>
+                    <p>
+                        Table header is another semantic tag that is used to indicate that the part of content placed between these tags is header of the table.
+                        <br>Note that the sema would change any physical appearance of the table.
+                        <br>
+                        <br>Syntax/Basic Structure:
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;table&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;thead&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th scope="col"&gt; content &lt;/th&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/thead&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th scope="row"&gt; content &lt;/th&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt; content &lt;/td&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/table&gt;
+                    </p>
+                </figure>
+            </article>
+
+            <hr>
+
+            <article id="tbody">
+                <h2>Table Body tag :0</h2>
+                <figure>
+                    <p>
+                        Table Body is another semantic tag that is used to indicate that the part of content placed between these tags is the body of the table.
+                        <br>This is similar to the main semantic tag but it's for tables. Note that the sema would change any physical appearance of the table.
+                        <br>
+                        <br>Syntax/Basic Structure:
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;table&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th scope="col"&gt; content &lt;/th&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tbody&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th scope="row"&gt; content &lt;/th&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt; content &lt;/td&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tbody&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/table&gt;
+                    </p>
+                </figure>
+            </article>
+
+            <hr>
+
+            <article id="theader">
+                <h2>Table Header tag :0</h2>
+                <figure>
+                    <p>
+                        Table header is another semantic tag that is used to indicate that the part of content placed between these tags is header of the table.
+                        <br>Note that the sema would change any physical appearance of the table.
+                        <br>
+                        <br>Syntax/Basic Structure:
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;table&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th scope="col"&gt; content &lt;/th&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th scope="row"&gt; content &lt;/th&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt; content &lt;/td&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tfoot&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; content &lt;/th&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tfoot&gt;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/table&gt;
+                    </p>
+                </figure>
+            </article>
+
+            <hr>
+
+            <article id="example">
+
+                <!-- Note: The time tag used here is an semantic tag which only specifies the meanning of the time, this has nothing to do with the visual output -->
+
+                <h2>Example :</h2>
+                <figure>
+                    <table>
+
+                        <caption>MY Free Time</caption>
+
+                        <thead>
+                            <tr>
+                                <th scope="col">Day</th>
+                                <th scope="col">Timmings</th>
+                                <th scope="col">Type</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <th scope="row">Monday</th>
+                                <td rowspan="4"><time datetime="18:00">06:00 PM</time> to <time datatime="20:00">08:00 PM</time></td>
+                                <td rowspan="6">Working Day</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Tuesday</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Wednesday</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Thursday</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Friday</th>
+                                <td rowspan="2"><time datetime="18:00">06:00 PM</time> to <time datatime="21:00">09:00 PM</time></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Saturday</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Sunday</th>
+                                <td><time datetime="10:00">10:00 AM</time> to <time datatime="16:00">04:00 PM</time></td>
+                                <td>Holday</td>
+                            </tr>
+                        </tbody>
+
+                        <tfoot>
+                            <p>basically this the free time I have for each week.</p>
+                        </tfoot>
+
+                    </table>
+                </figure>
+
+            </article>
+
+        </main>
+
+        <hr>
+
+        <footer>
+            <p><a href="#">Back to top</a></p>
+        </footer>
+
+    </body>
+
+</html>
