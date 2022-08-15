@@ -25,7 +25,7 @@
 
         <main>
 
-            <nav>
+            <nav aria-label="Indirect_Index">
                     <p>We can implement the table in the html by using the following tags :</p>
                     <ul>
                         <li><a href="#table">Table tag ( &lt;table&gt; )</a></li>
@@ -203,11 +203,11 @@
 
             <hr>
 
-            <article id="theader">
-                <h2>Table Header tag :0</h2>
+            <article id="tfooter">
+                <h2>Table Footer tag :0</h2>
                 <figure>
                     <p>
-                        Table header is another semantic tag that is used to indicate that the part of content placed between these tags is header of the table.
+                        Table Footer is another semantic tag that is used to indicate that the part of content placed between these tags is Footer of the table.
                         <br>Note that the sema would change any physical appearance of the table.
                         <br>
                         <br>Syntax/Basic Structure:
@@ -250,7 +250,7 @@
                         <tbody>
                             <tr>
                                 <th scope="row">Monday</th>
-                                <td rowspan="4"><time datetime="18:00">06:00 PM</time> to <time datatime="20:00">08:00 PM</time></td>
+                                <td rowspan="4"><time datetime="18:00">18:00</time> to <time datetime="20:00">20:00</time> hours</td>
                                 <td rowspan="6">Working Day</td>
                             </tr>
                             <tr>
@@ -264,20 +264,22 @@
                             </tr>
                             <tr>
                                 <th scope="row">Friday</th>
-                                <td rowspan="2"><time datetime="18:00">06:00 PM</time> to <time datatime="21:00">09:00 PM</time></td>
+                                <td rowspan="2"><time datetime="18:00">18:00</time> to <time datetime="21:00">21:00</time> hours</td>
                             </tr>
                             <tr>
                                 <th scope="row">Saturday</th>
                             </tr>
                             <tr>
                                 <th scope="row">Sunday</th>
-                                <td><time datetime="10:00">10:00 AM</time> to <time datatime="16:00">04:00 PM</time></td>
+                                <td><time datetime="10:00">10:00</time> to <time datetime="16:00">16:00</time> hours</td>
                                 <td>Holday</td>
                             </tr>
                         </tbody>
 
                         <tfoot>
-                            <p>basically this the free time I have for each week.</p>
+                            <tr>
+                                <td colspan="3">basically this the free time I have for each week.</td>
+                            </tr>
                         </tfoot>
 
                     </table>
