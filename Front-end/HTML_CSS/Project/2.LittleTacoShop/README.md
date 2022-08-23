@@ -9,7 +9,9 @@
     > [https://github.com/gitdagray/html_course/tree/main/10_lesson_starter/examples](https://github.com/gitdagray/html_course/tree/main/10_lesson_starter/examples)
 
 ## Requirements: 
+
 > Basic of HTML. ( But covers more concepts than the pervious one ).
+
 > little bit of CSS `(Totally Optional, because we'll be focusing only on HTML)`.
 
 ## Concepts covered:
