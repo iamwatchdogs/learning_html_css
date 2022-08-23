@@ -4,7 +4,9 @@
 - This project has a single basic HTML file made using very basic concept of HTML ( like headings, paragraphs, images, hyperlinks, e.t.c. ).
 
 ## Requirements: 
+
 > Basic of HTML.
+
 > little bit of CSS `(Totally Optional, because we'll be focusing only on HTML)`.
 
 ## Concepts covered:
