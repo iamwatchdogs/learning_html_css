@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset=""UTF-8" />
+        <!-- The below meta tag specifies that this page is an responsive page i.e.,
+             it's adjustable to the display spec of the device used. -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <meta name="author" content="Sam" />
+        <meta name="description" content="Practice Project: CatPhotoApp" />
+
+        <link rel="icon" href="src/html5.png" type="image/icon-x" />
+        <link rel="stylesheet" href="src/style.css" type="text/css" />
+
+        <title>CatPhotoApp</title>
+    </head>
+
+    <body>
+
+        <header>
+            <h1>CatPhotoApp</h1>
+        </header>
+
+        <main>
+
+            <section id="Cat_Photos">
+
+                <h2>Cat Photos</h2>
+                <p>Click here to view more <a href="https://freecatphotoapp.com" target="_blank" >cat photos</a>.</p>
+                <img src="src/relaxing-cat.jpg" alt="A cute orange cat lying on its back." title="Cat photos" width="281" height="281" />
+
+            </section>
+
+            <section id="Cat_Lists">
+
+                <h2>Cat Lists</h2>
+
+                <section id="Things_cats_love">
+
+                    <h3>Things cats love:</h3>
+                    <ul>
+                        <li>cat nip.</li>
+                        <li>laser pointers.</li>
+                        <li>lasagna.</li>
+                    </ul>
+                    <figure>
+                        <img src="src/lasagna.jpg" alt="A slice of lasagna on a plate." title="lasagna" width="300" height="244"  />
+                        <figcaption>Cats <em>love</em> lasagna.</figcaption>
+                    </figure>
+
+                </section>
+
+                <section id="Top_3_things_cats_hate">
+
+                    <h3>Top 3 things cats hate:</h3>
+                    <ol>
+                        <li>flea treatment</li>
+                        <li>thunder</li>
+                        <li>other cats</li>
+                    </ol>
+                    <figure>
+                        <img src="src/cats.jpg" alt="Five cats looking around a field." title="cats" width="400" height="222" />
+                        <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
+                    </figure>
+
+                </section>
+
+            </section>
+
+            <section id="Cat_Form">
+
+                <h2>Cat Form</h2>
+
+                <!-- forms are the tags which are capable of taking input from user and sending them to backend location
+                    specified in action attribute of the form tag. -->
+                <form action="https://freecatphotoapp.com/submit-cat-photo">
+
+                    <!-- fieldset tag is used to divide different parts of form into section based on the input type -->
+                    <fieldset>
+
+                        <!-- legend is the tag used to name the feildset -->
+                        <legend>Is your cat an indoor or outdoor cat?</legend>
+
+                        <!-- label is a tag with is used to bind a text to its respective input tag -->
+                        <label>
+                            <!-- input is the tag which specific the type of input it can receive from user -->
+                            <input type="radio" id="indoor" name="indoor-outdoor" checked/> Indoor
+                        </label>
+                        <label>
+                            <input type="radio" id="outdoor" name="indoor-outdoor" /> outdoor
+                        </label>
+
+                    </fieldset>
+                    <br>
+                    <fieldset>
+
+                        <legend>What's your cat's personality?</legend>
+
+                        <input type="checkbox" id="loving" name="personality" checked /> <label for="loving">Loving</label>
+                        <input type="checkbox" id="lazy" name="personality" /> <label for="lazy">Lazy</label>
+                        <input type="checkbox" id="energetic" name="personality" /> <label for="loving">Energetic</label>
+
+                    </fieldset>
+                    <br>
+                    <input type="text" id="cat_phot_url" name="cat_phot_url" placeholder="cat photo URL" required />
+                    <button type="submit"> Submit </button>
+
+                </form>
+
+            </section>
+
+        </main>
+        <footer>
+            <p>No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a></p>
+        </footer>
+
+    </body>
+
+</html>
