@@ -5,7 +5,7 @@
 Requirements: 
 > Basic of HTML. 
 
-> little bit of CSS `(Totally Optional, because we'll be focusing only on HTML)`.
+> little bit of CSS **(Totally Optional, because we'll be focusing only on HTML)**.
 
 Concepts covered:
 ```
