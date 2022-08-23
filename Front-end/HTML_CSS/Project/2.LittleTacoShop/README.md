@@ -16,14 +16,14 @@
 
 ## Concepts covered:
 ```
- - Structure of a HTML file
- - Different tags in HTML
- - Concept of Linking
- - Adding Media source
- - Tables
- - Comments
- - Semantics of HTML
- - Interactive Pages `(Input forms)`
+  Structure of a HTML file
+  Different tags in HTML
+  Concept of Linking
+  Adding Media source
+  Tables
+  Comments
+  Semantics of HTML
+  Interactive Pages `(Input forms)`
 ```
 
 ## Sources:
