@@ -28,9 +28,9 @@
 
 ## Sources:
  - [favicon.ico](https://github.com/gitdagray/html_course/blob/main/10_lesson_starter/favicon.ico) ( from original project )
- - tacos_close_up.png ( 400 X 267 )
- - tacos_and_drink.png ( 400 X 267 )
- - tacos_tray.jpg ( 400 X 267 )
+ - [tacos_close_up.png](https://github.com/iamwatchdogs/FSWD_hands_on/blob/main/Front-end/HTML_CSS/Project/2.LittleTacoShop/src/tacos_close_up_400x260.png) ( 400 X 267 )
+ - [tacos_and_drink.png](https://github.com/iamwatchdogs/FSWD_hands_on/blob/main/Front-end/HTML_CSS/Project/2.LittleTacoShop/src/tacos_and_drink_400x267.png) ( 400 X 267 )
+ - [tacos_tray.jpg](https://github.com/iamwatchdogs/FSWD_hands_on/blob/main/Front-end/HTML_CSS/Project/2.LittleTacoShop/src/tacos_tray_400x267.png) ( 400 X 267 )
  - style.css ( external css )
 
 ### Original Project Link:
