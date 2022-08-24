@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <meta name="author" content="Sam" />
+        <meta name="description" content="Hands-on making forms" />
+
+        <link rel="icon" href="../src/html5.png" type="image/icon-x" />
+        <link rel="stylesheet" href="../src/main.css" type="text/css" />
+
+        <title>Forms</title>
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <h1>Forms</h1>
+            <p><em>There's a lot about the <q>Forms</q> concept. So, I'm gonna go thought the basic syntax and examples.</em></p>
+
+        </header>
+
+        <hr>
+
+        <main>
+
+            <section id="Intro">
+                <h2>basic structure of the form :</h2>
+                <pre>
+    &lt;form action="link_to_the_backend_website" method="get/post"&gt;
+
+        &lt;label for="id_input"&gt; Label name &lt;/label&gt;
+        &lt;input type="type_of_input" id="id_input" name="input_name"&gt;
+                        .
+                        .
+                        .
+        &lt;button type="button"&gt;Submit&lt;/button&gt;
+
+    &lt;/form&gt;
+                </pre>
+            </section>
+
+            <hr>
+            
+            <div id="sideNote">
+                <aside>
+                    <details>
+                          <summary>Side Note:</summary>
+                          <p>Sorry, I was unable to explain each part <q>in detail</q>...</p>
+                    </details>
+                </aside>
+            </div>
+
+            <hr>
+
+            <section id="example">
+
+                <h2>Example:</h2>
+
+                <!-- The URL specified in the action attribute is a way to
+                     view the output sent from our page when we click submit button -->
+                <form action="htps://httpbin.org/get" method="get">
+
+                    <fieldset>
+                        <legend>Your Personal Details</legend>
+                        <p>
+                            <label for="firstName">First Name:</label>
+                            <!-- This is a text input which has autocomplete suggestion based on the perviously entered data and focus automatically
+                                 as the page loads. REMEMBER!!!... That we can have only only one autofocus attribute for a particular page. -->
+                            <input type="text" name="firstName" id="firstName" placeholder="Enter your First name" autocomplete="on" required autofocus>
+                        </p>
+                        <p>
+                            <label for="lastName">Last Name:</label>
+                            <input type="text" name="lastName" id="lastName" placeholder="Enter your Lastname" autocomplete="on" required >
+                        </p>
+                        <p>
+                            <label for="middleName">Middle Name:</label>
+                            <input type="text" name="middleName" id="middleName" placeholder="Enter your Middle name" autocomplete="on" >
+                        </p>
+                        <p>
+                            <label for="age">Age: </label>
+                            <input type="number" name="age" id="age" min="18" max="45" step="1" value="20">
+                        </p>
+                        <p>
+                            <label for="phoneNo">Phone No. :</label>
+                            <input type="tel" name="phoneNo" id="phoneNo" pattern="[0-9]{10}" placeholder="XXXXXXXXXX" autocomplete="on" required>
+                        </p>
+                        <p>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" placeholder="Enter your Email" autocomplete="on" required >
+                        </p>
+                        <p>
+                            <label for="password">Password:</label>
+                            <input type="password" name="password" id="password" placeholder="Enter your password" required >
+                        </p>
+                    </fieldset>
+
+                    <br>
+
+                    <fieldset>
+                        <legend>Acadamic Details</legend>
+                        <p>
+                            <label for="branch">Branch:</label>
+                            <select name="branch" id="branch" >
+                                <optgroup label="CSE">
+                                    <option value="coreCse">Core CSE</option>
+                                    <option value="csm">CSM - AIML</option>
+                                    <option value="csd">CSD - DS</option>
+                                    <option value="csi">CSI - IOT</option>
+                                    <option value="csc">CSC - CS</option>
+                                </optgroup>
+                                <optgroup label="otherbranchs">
+                                    <option value="civil">Civil</option>
+                                    <option value="mec">MEC</option>
+                                    <option value="ece">EcE</option>
+                                    <option value="eee">EEE</option>
+                                </optgroup>
+                                <option value="other">Other</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="college">College:</label>
+                            <input type="text" name="college" id="college" list="college-list" value="RAGHU ENGINEERING COLLEGE">
+                            <datalist id="college-list">
+                                <option value="RAGHU ENGINEERING COLLEGE">
+                                <option value="RAGHU INSTITUTE OF TECHNOLOGY">
+                                <option value="ANDHRA UNIVERSITY, COLLEGE OF ENGINEERING">
+                                <option value="GAYATRI VIDYA PARISHAD COLLEGE OF ENGINEERING">
+                                <option value="VISAKHA INSTITUTE OF ENGINEERING & TECHNOLOGY">
+                                <option value="SANKETIKA VIDYA PARISHAD ENGINEERING COLLEGE">
+                                <option value="GITAM">
+                                <option value="WELLFARE INSTITUTE OF SCIENCE TECHNOLOGY AND MANAGEMENT">
+                                <option value="VIGNAN'S INSTITUTE OF INFORMATION TECHNOLOGY">
+                                <option value="OTHER">
+                            </datalist>
+                        </p>
+                    </fieldset>
+
+                    <br>
+
+                    <fieldset>
+                        <legend>Gender</legend>
+                        <p>
+                            <input type="radio" name="gender" id="male">
+                            <label for="male">Male</label>
+                        </p>
+                        <p>
+                            <input type="radio" name="gender" id="female">
+                            <label for="female">Female</label>
+                        </p>
+                        <p>
+                            <input type="radio" name="gender" id="otherGender">
+                            <label for="otherGender">Other</label>
+                        </p>
+                        <p>
+                            <input type="radio" name="gender" id="notSay" checked>
+                            <label for="notSay">Rather Not say</label>
+                        </p>
+                    </fieldset>
+
+                    <br>
+
+                    <fieldset>
+                        <legend>Skillset</legend>
+                        <p>
+                            <input type="checkbox" name="skillset" id="frontend" checked>
+                            <label for="frontend">Frontend</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="skillset" id="backend">
+                            <label for="backend">Backend</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="skillset" id="fullStack">
+                            <label for="fullStack">Full Stack</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="skillset" id="otherSkillSet">
+                            <label for="otherSkillSet">Other</label>
+                        </p>
+                    </fieldset>
+
+                    <br>
+
+                    <fieldset>
+                        <legend>Comments</legend>
+                        <label for="comments">Comments</label>
+                        <figure>
+                            <textarea name="comments" id="comments" cols="40" rows="10" placeholder="Write your Comments here"></textarea>
+                        </figure>
+                    </fieldset>
+
+                    <br>
+
+                    <button type="submit" formtarget="_blank">Submit</button>
+                    <button type="submit" formaction="https://httpbin.org/post" formmethod="post" formtarget="_blank">Post</button>
+                    <button type="reset">Reset</button>
+
+                </form>
+            </section>
+
+        </main>
+
+        <hr>
+        
+        <footer>
+            <p><a href="#">Back to top.</a></p>
+        </footer>
+
+    </body>
+
+</html>
