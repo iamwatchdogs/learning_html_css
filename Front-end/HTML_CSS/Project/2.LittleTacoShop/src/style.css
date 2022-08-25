@@ -1,0 +1,38 @@
+html { 
+    font-size: 22px;
+}
+body {
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    background-color: #333;
+    color: whitesmoke;
+}
+h1, h2, h3, p, table {
+    text-align: center;
+}
+.left {
+    text-align: left;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+table, td, th, caption{
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid #eee;
+    border-collapse: separate;
+    padding: 0.5rem;
+}
+a{
+    color: aliceblue;
+}
+a:visited{
+    color:lightgray;
+}
+a:hover, a:active{
+    color: #eee;
+}

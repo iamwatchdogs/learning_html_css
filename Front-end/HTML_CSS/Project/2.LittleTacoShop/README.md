@@ -31,7 +31,7 @@
  - [tacos_close_up.png](https://github.com/iamwatchdogs/FSWD_hands_on/blob/main/Front-end/HTML_CSS/Project/2.LittleTacoShop/src/tacos_close_up_400x260.png) ( 400 X 267 )
  - [tacos_and_drink.png](https://github.com/iamwatchdogs/FSWD_hands_on/blob/main/Front-end/HTML_CSS/Project/2.LittleTacoShop/src/tacos_and_drink_400x267.png) ( 400 X 267 )
  - [tacos_tray.jpg](https://github.com/iamwatchdogs/FSWD_hands_on/blob/main/Front-end/HTML_CSS/Project/2.LittleTacoShop/src/tacos_tray_400x267.png) ( 400 X 267 )
- - style.css ( external css )
+ - [style.css](https://github.com/iamwatchdogs/FSWD_hands_on/blob/main/Front-end/HTML_CSS/Project/2.LittleTacoShop/src/style.css)
 
 ### Original Project Link:
 > https://github.com/gitdagray/html_course/tree/main/10_lesson_starter[https://github.com/gitdagray/html_course/tree/main/10_lesson_starter]
