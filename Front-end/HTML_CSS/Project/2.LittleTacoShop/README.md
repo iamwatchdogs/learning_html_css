@@ -2,9 +2,9 @@
 
 - **Little Taco Shop** is a mini learning project given by [Dave Gray](https://github.com/gitdagray).
 -  This project contain 3 different HTML file.
-   - Home Page `( main page )`.
-   - Timing Page
-   - Contact Page
+   - [Home Page](https://github.com/iamwatchdogs/FSWD_hands_on/tree/main/Front-end/HTML_CSS/Project/2.LittleTacoShop/Index.html) `( main page )`.
+   - [Timing Page](https://github.com/iamwatchdogs/FSWD_hands_on/tree/main/Front-end/HTML_CSS/Project/2.LittleTacoShop/storeHours.html)
+   - [Contact Page](https://github.com/iamwatchdogs/FSWD_hands_on/tree/main/Front-end/HTML_CSS/Project/2.LittleTacoShop/contact.html)
 - For Reference:
     > [https://github.com/gitdagray/html_course/tree/main/10_lesson_starter/examples](https://github.com/gitdagray/html_course/tree/main/10_lesson_starter/examples)
 
