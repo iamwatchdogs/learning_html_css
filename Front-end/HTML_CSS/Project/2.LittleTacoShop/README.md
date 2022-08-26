@@ -34,4 +34,4 @@
  - [style.css](https://github.com/iamwatchdogs/FSWD_hands_on/blob/main/Front-end/HTML_CSS/Project/2.LittleTacoShop/src/style.css)
 
 ### Original Project Link:
-> https://github.com/gitdagray/html_course/tree/main/10_lesson_starter[https://github.com/gitdagray/html_course/tree/main/10_lesson_starter]
+> [https://github.com/gitdagray/html_course/tree/main/10_lesson_starter](https://github.com/gitdagray/html_course/tree/main/10_lesson_starter)
