@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initital-scale=1.0" />
+
+        <meta name="author" content="Sam" />
+        <meta name="description" content="learnig various Selectors" />
+
+        <link rel="icon" href="../src/html5.png" type="image/icon-x" />
+        <link rel="stylesheet" href="../src/main.css" type="text/css" />
+
+        <title>Selectors</title>
+
+        <style>
+            pre {
+                color: orange;
+            }
+            .redPre {
+                color: red;
+            }
+            #greenPre {
+                color: lightgreen;
+            }
+            .pseudo {
+                color: aqua;
+            }
+            .pseudo:hover {
+                color: blue;
+            }
+            li:first-child:hover{
+                color: plum;
+            }
+            li:last-child:active{
+                color: lightseagreen;
+            }
+            li:nth-child(3):hover{
+                color: pink;
+            }
+            p + pre {
+                color: yellow;
+            }
+            p ~ pre {
+                color: grey;
+            }
+            section > p{
+                color:green;
+            }
+            .example p,h5{
+                color: gold;
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+        <h1>Selectors</h1>
+
+        <hr>
+
+        <p>Basically the structure of the CSS is as follows:</p>
+        <pre>
+        Selectors {
+            property : value;
+        }
+        </pre>
+        <p>
+            Selector(s) plays a key role in applying styling. These selectors are basically the tags/classes/ids
+            which points a part of html contant to apply a specfic type of styling.
+        </p>
+        <p>There are basically three types of selectors:</p>
+        <ol>
+            <li>Tag selectors</li>
+            <li>Class Selectors</li>
+            <li>Id Selectors</li>
+        </ol>
+
+        <hr>
+
+        <h3>Tag selector:</h3>
+        <p>
+            Tag selector(s) is/are the type of selector where we use the html tag directly to style the content
+            within the the tags all over the html page. The styling will be done to every instance of the tag
+            throught the html page.
+        </p>
+        <pre>
+        pre {
+            color: orange; 
+        }
+        </pre>
+
+        <h3>Class selector:</h3>
+        <p>
+            The class selector(s) is/are the type of selectors where the specific styling is applied to the tags
+            specified with the class name within the tag's class attribute. The class styling will overwrite the
+            styling specfic to the tag.
+        </p>
+        <p>The styling can be applied as follows:</p>
+        <pre class="redPre">
+        .classname {
+            color: red;
+        }
+        </pre>
+
+        <h3>Id selector:</h3>
+        <p>
+            The Id selector(s) is/are the type of selectors where the specific styling is applied to the tags
+            specified with the Id name within the tag's id attribute. The id attribute styling will overwrite the
+            styling specified by the class or tag selectors.
+        </p>
+        <p>The styling can be applied as follows:</p>
+        <pre class="redPre" id="greenPre" >
+        .classname {
+            color: red;
+        }
+        </pre>
+
+        <hr>
+
+        <h2>Pseudo Selectors:</h2>
+        <p>
+            Pseudo selectors are basically like extension of selectors based on action. These type of selectors are
+            structured as following: 
+        </p>
+        <pre class="pseudo">
+        selector:pseudo selector {
+            property: value;
+        }
+        </pre>
+        <p>For example:</p>
+        <pre class="pseudo">
+        .pseudo:hover {
+            color: blue;
+        }
+        </pre>
+
+        <p>
+            Some of the other pseudo selector which can be applied for specific item on a list.
+            Then, we use some pseudo selectors like <q>first-child, last-child, only-child, nth-child(n)</q>, e.t.c
+            <br>These pseudo selectors will work on the children tags of its parent tag. In this case, the parent tag
+            is &lt;ul&gt; and the children tag is &lt;li&gt;.
+        </p>
+        <p>For example:</p>
+        <ul>
+            <li>1st item</li>
+            <li>2nd item</li>
+            <li>3rd item (hover here)</li>
+            <li>4th item</li>
+            <li>5th item (click here)</li>
+        </ul>
+
+        <hr>
+
+        <h2>Advance Selectors:</h2>
+        <p>
+            We will not be using these type of selectors all the time but its worth knowing about them.
+            The concept of these type of selectors is being more specific about the type of styling we for particular part of html page..
+            <br>Here, we are going to discuss about 4 Advanced Selectors.
+        </p>
+
+        <div>
+            <h3>Selector_1 + Selector_2:</h3>
+            <p>
+                This type of selector implementation is used to specify that <q>Apply these stylings to the content which are inside Selector_2 where the Selector_2 is followd by Selector_1</q>.
+                <br>For example:
+            </p>
+        </div>
+        <div>
+            <pre>
+            p + pre {
+                color: yellow;
+            }
+            </pre>
+        </div>
+
+        <div>
+            <h3>Selector_1 ~ Selector_2:</h3>
+            <p>
+                This type of selector implementation is used to specify that <q>Apply these stylings to the content which are inside Selector_2 where the Selector_2 is followd by Selector_1 and lie within same semantic division.</q>.
+                <br>Note that this selector will be applicable if and only if both of the selectors lie within same semantic division and that's how its different from the selector we discussed before.
+                <br>For example:
+            </p>
+            <pre>
+            p ~ pre {
+                color: grey;
+            }
+            </pre>
+        </div>
+
+        <p>
+            Note that if you mentioned both types of implementation metion above and did not divide them semantically then, the styling which was instructed at the end will be applied to both the cases.
+        </p>
+
+        <h3>Selector_1 > Selector_2:</h3>
+        <p>
+            This type of selector implementation is used to specify that <q>Apply these stylings to the content which is inside All the Selector_2(s) which are followed by Selector_1</q>.
+            <br>Note that this selector implementation will take place to <strong>ALL</strong> the <strong>direct</strong> concurrent child (Selector_2's) which are followed by aleast one Selector_1.
+        </p>
+        <figure>
+            <section>
+                <h4>For example:</h4>
+                <p>This paragragh is the direct child of section</p>
+                <div>
+                    <p>This paragraph is not an direct child of section.</p>
+                </div>
+                <p>This paragragh is also the direct child of section</p>
+            </section>
+        </figure>
+
+        <h3>Selector_1 Selector_2:</h3>
+        <p>
+            This type of selector implementation is used to specify that <q>Apply these stylings to the content which is inside All the Selector_2(s) which are followed by Selector_1</q>.
+            <br>Note that this selector implementation will take place to <strong>ALL</strong> the <strong>directly OR indirectly</strong> a concurrent child (Selector_2's) of Selector_1 which are followed by aleast one Selector_1.
+            <br>For Example: 
+        </p>
+        <figure>
+            <div class="example">
+                <p>This paragragh is the direct child of class <q>example</q>.</p>
+                <article>
+                    <h5>article needs a heading.</h5>
+                    <p>This paragraph is not an direct child of class <q>example</q>.</p>
+                </article>
+                <p>This paragragh is also the direct child of class <q>example</q>.</p>
+            </div>
+        </figure>
+
+    </body>
+
+</html>
