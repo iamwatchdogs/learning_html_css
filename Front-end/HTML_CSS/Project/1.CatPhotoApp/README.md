@@ -25,6 +25,9 @@
  - [cats.jpg](https://github.com/iamwatchdogs/FSWD_hands_on/blob/main/Front-end/HTML_CSS/Project/1.CatPhotoApp/src/cats.jpg) ( 400 X 200 )
  - [style.css](https://github.com/iamwatchdogs/FSWD_hands_on/blob/main/Front-end/HTML_CSS/Project/1.CatPhotoApp/src/style.css) ( external css )
 
+## Result:
+![Screenshot 1](https://github.com/iamwatchdogs/FSWD_hands_on/tree/main/Front-end/HTML_CSS/Project/1.CatPhotoApp/output/1.png)
+![Screenshot 2](https://github.com/iamwatchdogs/FSWD_hands_on/tree/main/Front-end/HTML_CSS/Project/1.CatPhotoApp/output/1.png)
 
 ### Link:
 > [https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-by-building-a-cat-photo-app/](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-by-building-a-cat-photo-app/step-68)

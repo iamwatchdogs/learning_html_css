@@ -14,6 +14,12 @@
 
 > little bit of CSS `(Totally Optional, because we'll be focusing only on HTML)`.
 
+## Result:
+
+![Home Page](https://github.com/iamwatchdogs/FSWD_hands_on/tree/main/Front-end/HTML_CSS/Project/2.LittleTacoShop/output/HomePage.png)
+![Store Hours Page](https://github.com/iamwatchdogs/FSWD_hands_on/tree/main/Front-end/HTML_CSS/Project/2.LittleTacoShop/output/StoreHours.png)
+![Contact Page](https://github.com/iamwatchdogs/FSWD_hands_on/tree/main/Front-end/HTML_CSS/Project/2.LittleTacoShop/output/Contact.png)
+
 ## Concepts covered:
 ```
  - Structure of a HTML file
