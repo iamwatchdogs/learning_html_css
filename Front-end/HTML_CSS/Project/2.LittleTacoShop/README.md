@@ -28,9 +28,9 @@
 
 ## Result:
 
-![Home Page](https://github.com/iamwatchdogs/FSWD_hands_on/blob/main/Front-end/HTML_CSS/Project/2.LittleTacoShop/output/HomePage.png)
-![Store Hours Page](https://github.com/iamwatchdogs/FSWD_hands_on/blob/main/Front-end/HTML_CSS/Project/2.LittleTacoShop/output/Contact.png)
-![Contact Page](https://github.com/iamwatchdogs/FSWD_hands_on/blob/main/Front-end/HTML_CSS/Project/2.LittleTacoShop/output/StoreHours.png)
+- ![Home Page](https://github.com/iamwatchdogs/FSWD_hands_on/blob/main/Front-end/HTML_CSS/Project/2.LittleTacoShop/output/HomePage.png)
+- ![Store Hours Page](https://github.com/iamwatchdogs/FSWD_hands_on/blob/main/Front-end/HTML_CSS/Project/2.LittleTacoShop/output/Contact.png)
+- ![Contact Page](https://github.com/iamwatchdogs/FSWD_hands_on/blob/main/Front-end/HTML_CSS/Project/2.LittleTacoShop/output/StoreHours.png)
 
 ## Used Sources:
  - [favicon.ico](https://github.com/gitdagray/html_course/blob/main/10_lesson_starter/favicon.ico) ( from original project )
