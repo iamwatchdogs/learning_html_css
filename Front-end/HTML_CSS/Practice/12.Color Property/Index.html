@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initital-scale=1.0" />
+
+        <meta name="author" content="Sam" />
+        <meta name="description" content="learnig various Color and Background Properties" />
+
+        <link rel="icon" href="../src/html5.png" type="image/icon-x" />
+        <link rel="stylesheet" href="../src/main.css" type="text/css" />
+        <link rel="stylesheet" href="style.css" type="text/css" />
+
+        <title>Color Properties</title>
+        
+    </head>
+
+    <body>
+
+        <header>
+            <h1><u>Color properties :-</u></h1>
+        </header>
+
+        <hr>
+        <hr style="width: 95%;">
+
+        <main>
+            <p>
+                color property for a selector can be applied by using the property called <q>color:</q>. Most of the time it referes to the text content within the specified selectors. we can also apply it to background by using the property called <q>background-color:</q> or <q>background:</q>.
+            </p>
+            <p>
+                The value to the color property can be of the following types:
+            </p>
+
+            <hr class="subdivisions">
+
+            <section id="text-color">
+                <h2>1) Color Name:</h2>
+                <p>We can directly specify value to the color property just by giving the respective CSS color name. For example:</p>
+                <pre class="steel-blue">
+                    .steel-blue {
+                        color: steelblue;
+                    }
+                </pre>
+            </section>
+
+            <hr class="subdivisions">
+
+            <section id="hex-color">
+                <h2>2) Hex code:</h2>
+                <p>
+                    hex code is a value which represents a color in hexcode format.  basically it's format in the form of : <q>#RRGGBB</q> which means that first 2 hex digits represents the amount of red color, the next 2 hex digits represents the amount of green color, and last 2 represents the amount of blue color. For example:
+                </p>
+                <pre class="green">
+                    .green {
+                        color: #00ff00;
+                    }
+                </pre>
+            </section>
+                
+            <hr class="subdivisions">
+
+            <section id="rgb">
+                <h2>3) RGB parameters:</h2>
+                <p>Here we provide the amount of red, green, blue directly as the parameters of rgb() ranging from 0 to 255. For example:</p>
+                <pre class="red">
+                    .red {
+                        color: rgb(255, 0, 0);
+                    }
+                </pre>
+            </section>
+                
+            <hr class="subdivisions">
+
+            <section id="hsl">
+                <h2>4) HSL parameters:</h2>
+                <p>
+                    It is quite Similar to rbg() value. But here we provide the amount of Hue, Saturation, Lightness as the parameters of hsl() where the <q>h</q> value will be ranging from 0 to 255 and the <q>s</q>, <q>l</q> values ranging from 0 to 1 <em>(or)</em> 0% to 100%. For example:
+                </p>
+                <pre class="light-blue">
+                    .light-blue {
+                        color: hsl(180, 100%, 50%);
+                    }
+                </pre>
+            </section>
+
+            <hr class="subdivisions">
+
+            <section id="rgba">
+                <h2>5) RGBA parameters:</h2>
+                <p>
+                    This parameterized value is just an extension of rgb(). The additional value included i.e., 'a' is the alpha which decides the opacity/transparence of the color. The value of <q>a</q> ranges from 0 to 1 <em>(or)</em> 0% to 100% For example:
+                </p>
+                <pre class="tranparent-red">
+                    .tranparent-red {
+                        color: rgba(255, 0, 0, 50%);
+                    }
+                </pre>
+            </section>
+                
+            <hr class="subdivisions">
+
+            <section id="hsla">
+                <h2>6) HSLA parameters:</h2>
+                <p>
+                    This parameterized value is just an extension of hsl(). The additional value included i.e., 'a' is the alpha which decides the opacity/transparence of the color. The value of <q>a</q> ranges from 0 to 1 <em>(or)</em> 0% to 100% For example:
+                </p>
+                <pre class="tranparent-light-blue">
+                    .tranparent-light-blue {
+                        color: hsla(180, 100%, 50%, 50%);
+                    }
+                </pre>
+            </section>
+
+            <hr style="width: 95%;">
+            <hr>
+
+        </main>
+        
+    </body>
+
+</html>

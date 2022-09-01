@@ -1,0 +1,27 @@
+h1,h2,p {
+    text-align: center;
+}
+pre{
+    padding-left: 33%;
+}
+.subdivisions{
+    width: 75%;
+}
+.steel-blue {
+    color: steelblue;
+}
+.green {
+    color: #00ff00;
+}
+.red {
+    color: rgb(255, 0, 0);
+}
+.light-blue {
+    color: hsl(180, 100%, 50%);
+}
+.tranparent-red {
+    color: rgba(255, 0, 0, 50%);
+}
+.tranparent-light-blue {
+    color: hsla(180, 100%, 50%, 50%);
+}
