@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initital-scale=1.0" />
+
+        <meta name="author" content="Sam" />
+        <meta name="description" content="learnig various Background Properties" />
+
+        <link rel="icon" href="../src/html5.png" type="image/icon-x" />
+        <link rel="stylesheet" href="../src/main.css" type="text/css" />
+        <link rel="stylesheet" href="style.css" type="text/css" />
+
+        <title>Background Property</title>
+        
+    </head>
+
+    <body>
+
+        <header>
+            <h1><u>Background Property:-</u></h1>
+            <p>
+                Background Properties are one of the important properties of css.
+            </p>
+        </header>
+
+        <hr style="width:100%;">
+        <hr style="width:95%;">
+        
+        <main>
+            
+            <p>Some of the background properties are:</p>
+
+            <hr>
+
+            <article id="background-color">
+                <h2>1) Background Color:</h2>
+                <p>
+                    Color is one of the basic properties of css. As it says, it add the color to the background of the elements of the selector. for example,
+                </p>
+                <pre class="steel-blue">
+                        .steel-blue{
+                            background-color: steelblue;
+                        }
+                </pre>
+            </article>
+
+            <hr>
+
+            <article id="image">
+                <h2>2) Background Image:</h2>
+                <p>
+                    We can add images to background images using <q>background-image</q> Property and for the value, we can specify it using url(). For example,
+                </p>
+                <pre>
+                    .example-bgimage{
+                        background-image: url(../src/img/caribbean_400_x_225.jpg);
+                    }
+                </pre>
+                <div class="example-bgimage"></div>
+            </article>
+
+            <hr>
+
+            <article id="repeat">
+
+                <h2>3) Background Repeat:</h2>
+                <p>
+                    As we can see the above image, it's repeated to fit the proportion of the div element of class <q>example-bgimage</q>. By default, the background-repeat Property has the value of <q>repeat</q>. The other value we have is <q>no-repeat</q>.
+                </p>
+                <p>
+                    No Repeat value will stop the image from repeating itself to fit the selector size. No-Repeat will display the image only once and with its original size/proportions. For example,
+                </p>
+                <pre>
+                    .example-bg-no-repeat-image{
+                        background-color: steelblue;
+                        background-image: url("../src/img/caribbean_400_x_225.jpg");
+                        background-repeat: no-repeat;
+                    }
+                </pre>
+                <div class="example-bg-no-repeat-image"></div>
+
+            </article>
+
+            <hr>
+
+            <article id="size">
+
+                <h2>4) Size:</h2>
+                <p>
+                    By using <q>background-size</q> property, we can display the image with given size. The value for this property can be given in form of <em>width height</em> (or) predefined value like - <em>cover, contain</em>.
+                </p>
+                <pre>
+                example 1 :
+                
+                    .example-bg-img-size{
+                        background-color: steelblue;
+                        background-image: url("../src/img/caribbean_400_x_225.jpg");
+                        background-size: 40% 70%;
+                    }
+                </pre>
+                <div class="example-bg-img-size"></div>
+                <pre>
+                example 2 :
+
+                    .example-bg-img-size-cover{
+                        background-color: steelblue;
+                        background-image: url("../src/img/caribbean_400_x_225.jpg");
+                        background-size: cover;
+                    }
+                </pre>
+                <div class="example-bg-img-size-cover"></div>
+                <pre>
+                example 3 :
+
+                    .example-bg-img-size-contain{
+                        background-color: steelblue;
+                        background-image: url("../src/img/caribbean_400_x_225.jpg");
+                        background-size: contain;
+                    }
+                </pre>
+                <div class="example-bg-img-size-contain"></div>
+            </article>
+
+            <hr>
+
+            <article id="gradient">
+
+                <h2>Gradient</h2>
+                <p>
+                    Gradient displays the transition between different colors. Gradients can be applied in two ways i.e., the <q>linear-gradient</q> way or <q>radial-gradient</q> way.
+                </p>
+
+                <hr style="width: 75%;">
+
+                <article id="linear-way">
+                    <h3>I) Linear Gradient way</h3>
+                    <p>
+                        We can apply linear gradient to background assigning <q>linear-gradient(  <em>to</em> direction, color1, color2, ... )</q>. For example,
+                    </p>
+                    <pre>
+                    example 1:
+                        .example-linear-gradient-direction{
+                            background: linear-gradient( to right bottom, #0000ff, steelblue, rgba(70,130,180,0.65))
+                        }
+                    </pre>
+                    <div class="example-linear-gradient-direction"></div>
+                    <pre>
+                    example 2:
+                    .example-linear-gradient-deg{
+                        background: linear-gradient( 260deg, #0000ff, steelblue, rgba(70,130,180,0.65))
+                    }
+                    </pre>
+                    <div class="example-linear-gradient-deg"></div>
+                </article>
+
+                <hr style="width: 75%;">
+
+                <article id="radial-way">
+                    <h3>II) Radial Gradient way</h3>
+                    <p>
+                        We can apply radial gradient to background assigning <q>radial-gradient( shape <em>(optional)</em>, color1 <em>amount1</em>, color2 <em>amount2</em>, ... )</q>. For example,
+                    </p>
+                    <pre>
+                    example 1:
+                        .example-radial-gradient{
+                            background: radial-gradient( blue, steelblue);
+                        }
+                    </pre>
+                    <div class="example-radial-gradient"></div>
+                    <pre>
+                    example 2:
+                        .example-radial-gradient-with-shape{
+                            background: radial-gradient( circle, blue 25%, steelblue 75%);
+                        }
+                    </pre>
+                    <div class="example-radial-gradient-with-shape"></div>
+                </article>
+
+            </article>
+
+        </main>
+
+        <footer>
+            <hr style="width:95%;">
+            <hr style="width:100%;">
+            <p>The End</p>
+            <hr style="width:100%;">
+            <hr style="width:95%;">
+        </footer>
+
+    </body>
+
+</html>
