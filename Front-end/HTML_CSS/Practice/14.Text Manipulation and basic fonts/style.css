@@ -1,0 +1,24 @@
+h1,h2,p {
+    text-align: center;
+}
+hr {
+    width: 80%;
+}
+.align-to-justify{
+    text-align: justify;
+}
+.decorate-overline {
+    text-decoration: overline;
+}
+.transfrom-text-to-uppercase {
+    text-transform: uppercase;
+}
+.changed-font-size {
+    font-size: 1.5em;
+}
+.changed-font-weight {
+    font-weight: 900;
+}
+.changed-font-style {
+    font-style: italic;
+}

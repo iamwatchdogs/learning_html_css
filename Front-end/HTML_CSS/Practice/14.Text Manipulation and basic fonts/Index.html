@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initital-scale=1.0" />
+
+        <meta name="author" content="Sam" />
+        <meta name="description" content="learnig various Text Manipulation & Basic Font Properties" />
+
+        <link rel="icon" href="../src/html5.png" type="image/icon-x" />
+        <link rel="stylesheet" href="../src/main.css" type="text/css" />
+        <link rel="stylesheet" href="style.css" type="text/css" />
+
+        <title>Text & Basic Font Properties</title>
+        
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Text & Basic Font Properties</h1>
+            <p>
+                In this practice page, we will be discuss about few Text Manipulation &amp; Some Basic Font Properties of CSS.
+                <br>And also, we will not be discussing about all types of value used for the properties because it would be time comsuming.
+            </p>
+        </header>
+
+        <hr style="width: 100%;">
+        <hr style="width: 95%;">
+
+        <main>
+
+            <article id="alignment">
+                <h2>1) Text-Alignment</h2>
+                <p>
+                    Text alignment works similar to text alignment present in MS office applications.
+                    I have set up this page such way that all the text element are centered. 
+                    The text alignment can have other value like <q>left</q>, <q>right</q>, <q>justify</q>.
+                    For example,
+                </p>
+                <pre>
+                    <code class="align-to-justify">
+                        .align-to-justify {
+                            text-align: justify;
+                        }
+                    </code>
+                    <span>
+                        <em> Note that the content is specify within the
+                        &lt;pre&gt; tag which has indentation. </em>
+                    </span>
+                </pre>
+            </article>
+
+            <hr>
+
+            <article id="decoration">
+                <h2>2) Text-Decoration</h2>
+                <p>
+                    Text decoration is used to decorate the text of an element by values such as <q>dashed</q>, <q>dotted</q>, <q>double</q>, e.t.c. We can also remove the default decoration by giving the value <q>none</q>. Let's see one of this property:
+                </p>
+                <p>
+                    <code class="decorate-overline">
+                        .decorate-overline {
+                            text-decoration: overline;
+                        }
+                    </code>
+                </p>
+                <br>
+            </article>
+
+            <hr>
+
+            <article id="transform">
+                <h2>3) Text-Transfrom</h2>
+                <p>
+                    Text transfrom property is used to transfrom the state of text into varios from like <q>captilize</q>, <q>uppercase</q>, <q>lowercase</q> and even <q>none</q>. Let's see one of this property:
+                </p>
+                <pre>
+                    <code class="transfrom-text-to-uppercase">
+                        .transfrom-text-to-uppercase{
+                            text-transform: uppercase;
+                        }
+                    </code>
+                </pre>
+            </article>
+
+            <hr style="width: 90%;">
+
+            <p>
+                Till Now, we have seen only Text Manipulation properties; Now let's take a look at some basic Font properties.
+            </p>
+
+            <hr style="width: 90%;">
+
+            <article id="font-size">
+                <h2>1) Font-Size</h2>
+                <p>
+                    As the name suggests, this font property deals with the sizing of font of the selector. For example,
+                </p>
+                <pre>
+                    <code class="changed-font-size">
+                        .changed-font-size {
+                            font-size: 1.5em;
+                        }
+                    </code>
+                </pre>
+            </article>
+
+            <hr>
+
+            <article id="font-weight">
+                <h2>2) Font-Weight</h2>
+                <p>
+                    The font weight gives the boldness of the text of the selector. The value of this property ranges from 0 to 900 and mostly used in terms of multiples of 100.For example,
+                </p>
+                <pre>
+                    <code class="changed-font-weight">
+                        .changed-font-weight {
+                            font-weight: 900;
+                        }
+                    </code>
+                </pre>
+            </article>
+
+            <hr>
+
+            <article id="font-style">
+                <h2>3) Font-Style</h2>
+                <p>
+                    The font-style is used to give basic styling for the text of the selectors. Well, mostly it's used for setting text in italic styles as shown below,
+                </p>
+                <pre>
+                    <code class="changed-font-style">
+                        .changed-font-style {
+                            font-style: italic;
+                        }
+                        
+                    </code>
+                </pre>
+            </article>
+
+        </main>
+
+        <footer>
+            <hr style="width:95%;">
+            <hr style="width:100%;">
+            <p>The End</p>
+            <hr style="width:100%;">
+            <hr style="width:95%;">
+        </footer>
+
+    </body>
+
+</html>
