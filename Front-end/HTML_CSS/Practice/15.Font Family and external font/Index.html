@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initital-scale=1.0" />
+
+        <meta name="author" content="Sam" />
+        <meta name="description" content="learnig Font Family and External Font" />
+
+        <!-- External Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+        <!-- End of External Font -->
+
+        <link rel="icon" href="../src/html5.png" type="image/icon-x" />
+        <link rel="stylesheet" href="../src/main.css" type="text/css" />
+        <link rel="stylesheet" href="style.css" type="text/css" />
+
+        <title>Font Family and External Fonts</title>
+        
+    </head>
+
+    <body>
+
+        <h1>Font-family and External font</h1>
+
+        <hr>
+        <hr style="width: 95%;">
+
+        <p>
+            Font family is more of the most important css styling used on the text content of an html page.
+            <br>Font family is an property which focus on the styling of the text content.
+            <br>We can change the font of an text just by givin values like <em><q>san-serif</q>, <q>Arial</q>, <q>Helvetica</q></em> to name a few, to the selector <q>font-family</q>.
+            <br>For example,
+        </p>
+        <pre class="change-font-to-Helvetica">
+            .change-font-to-Helvetica {
+                color: aqua;
+                font-family: Helvetica;
+            }
+        </pre>
+
+        <hr style="width: 50%;">
+
+        <p>
+            we can also stack up multiple fonts, just to make sure that <q>If one fails, the alternate one will takeover</q>.
+            <br>The font loading problems can be caused when the specific font is not present in the system where this html page is viewed from.
+            <br>To illustrate an example of stacking up multiple fonts,
+        </p>
+        <pre class="change-font-to-the-following">
+            .change-font-to-the-following {
+                color: lightcoral;
+                font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+            }
+        </pre>
+
+        <hr style="width: 70%;">
+        <hr style="width: 70%;">
+
+        <h2>Adding External Font</h2>
+        <p>
+            As we have discussed above about the font-failure problem, There is a way to add the required font even if the system does not have it.
+            <br>And this is possible by add an external font from online servers which contains multiple fonts. One of the most popular choice to add external fonts is throught Google fonts.
+            <br>All we have to do is to select an font on <q>Google Font</q>, After selecting the font ( you can customize if you want ), 
+            <br>the selected font will provide an html linking tag by setting the hyperlink to the location contain the specified font.
+            <br>We have to copy it and paste it in the head section right above where you're going to use the font-style in either external CSS or even Internal CSS.
+            <br>Now, we can use the font despite the system being used.
+            <br>Even throught it safe to use the external font directly, it's recommended to stack it with some alternative just to avoid the worst case of displaying,
+            <br>the sam default font for all the text content throughtout the html page. 
+            <br>
+            <br>Now, lets see an example,
+        </p>
+        <pre class="change-font-to-external-font-light-ubuntu">
+            .change-font-to-external-font-light-ubuntu {
+                color: lightgreen;
+                font-family: 'Ubuntu', sans-serif;
+            }
+        </pre>
+
+        <hr style="width:95%;">
+        <hr>
+        <p>The End</p>
+        <hr>
+        <hr style="width:95%;">
+
+    </body>
+
+</html>

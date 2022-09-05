@@ -1,0 +1,18 @@
+h1,h2,p {
+    text-align: center;
+}
+pre {
+    padding-left: 37%;
+}
+.change-font-to-Helvetica {
+    color: aqua;
+    font-family: Helvetica;
+}
+.change-font-to-the-following {
+    color: lightcoral;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.change-font-to-external-font-light-ubuntu {
+    color: lightgreen;
+    font-family: 'Ubuntu', sans-serif;
+}
