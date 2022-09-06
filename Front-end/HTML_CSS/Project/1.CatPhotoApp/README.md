@@ -1,7 +1,9 @@
-# CatPhotoApp
+# [CatPhotoApp](https://iamwatchdogs.github.io/Front-end/HTML_CSS/Project/1.CatPhotoApp/ "View Project CatPhotoApp")
 
 - **CatPhotoApp** is a mini learning project offered by interactive learning session by [freecodecamp.org](https://www.freecodecamp.org/learn/).
 - This project has a single basic HTML file made using very basic concept of HTML ( like headings, paragraphs, images, hyperlinks, e.t.c. ).
+
+> [View the Page](https://iamwatchdogs.github.io/Front-end/HTML_CSS/Project/1.CatPhotoApp/ "View Project CatPhotoApp")
 
 ## Requirements: 
 
