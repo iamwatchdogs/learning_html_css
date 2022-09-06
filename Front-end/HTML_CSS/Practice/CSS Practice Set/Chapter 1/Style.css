@@ -1,0 +1,16 @@
+#head{
+    background: steelblue;
+}
+.one {
+    color: rgb(58, 48, 48);
+    background: lightgreen;
+}
+.two {
+    color: rgb(243, 93, 93);
+}
+.three {
+    background-color: rgb(27, 27, 27);
+}
+.change-font{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
