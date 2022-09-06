@@ -1,4 +1,4 @@
-# Chapter 4 - Practice Set
+# [Chapter 4 - Practice Set](https://iamwatchdogs.github.io/Front-end/HTML_CSS/Practice/CSS%20Practice%20Set/Chapter%204/)
 
 ## Instructions:
 
@@ -12,6 +12,8 @@
 - [ ] **Remove the Undelines** from *links* in {Instruction 1}.
 - [ ] **Demonstrate the difference** between *'display:none'* and *'visibility:hidden'* using a div tag.
 - [ ] **Change the footer** to all the *uppercase* in {Instruction 1}.
+
+> [View the Page](https://iamwatchdogs.github.io/Front-end/HTML_CSS/Practice/CSS%20Practice%20Set/Chapter%204/)
 
 ---
 

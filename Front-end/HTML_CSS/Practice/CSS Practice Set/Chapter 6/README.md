@@ -1,4 +1,4 @@
-# Chapter 6 - Practice Set
+# [Chapter 6 - Practice Set](https://iamwatchdogs.github.io/Front-end/HTML_CSS/Practice/CSS%20Practice%20Set/Chapter%206/)
 
 ## Instructions:
 
@@ -15,6 +15,8 @@
 <div align="center">
     <img src="src/Instruct_4_flexbox_layout.PNG" alt="Flex box Layout from Instruction 4" />
 </div>
+
+> [View the Page](https://iamwatchdogs.github.io/Front-end/HTML_CSS/Practice/CSS%20Practice%20Set/Chapter%206/)
 
 ---
 

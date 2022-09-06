@@ -1,4 +1,4 @@
-# Chapter 3 - Practice Set
+# [Chapter 3 - Practice Set](https://iamwatchdogs.github.io/Front-end/HTML_CSS/Practice/CSS%20Practice%20Set/Chapter%203/)
 
 ## Instructions:
 
@@ -6,6 +6,8 @@
 - [ ] Add **borders & margins** to {Instruction 1}.
 - [ ] **Did the margin collapse** betweem Content box & footer.
 - [ ] Add the **box-sizing property** to Content box. *Observe the changes* you notice.
+  
+> [View the Page](https://iamwatchdogs.github.io/Front-end/HTML_CSS/Practice/CSS%20Practice%20Set/Chapter%203/)
 
 ---
 

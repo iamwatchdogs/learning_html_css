@@ -1,4 +1,4 @@
-# Chapter 5 - Practice Set
+# [Chapter 5 - Practice Set](https://iamwatchdogs.github.io/Front-end/HTML_CSS/Practice/CSS%20Practice%20Set/Chapter%205/)
 
 ## Instructions:
 
@@ -6,6 +6,8 @@
 - [ ] Create a **sticky 'navbar**' using *position property*.
 - [ ] Demonstrate the **use of list-style property** using a *UL ( unordered list )* as example.
 - [ ] Demonstrate the **use of z-index** using an example.
+
+> [View the Page](https://iamwatchdogs.github.io/Front-end/HTML_CSS/Practice/CSS%20Practice%20Set/Chapter%205/)
 
 ---
 

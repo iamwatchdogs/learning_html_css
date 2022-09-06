@@ -1,4 +1,4 @@
-# Chapter 8 - Practice Set
+# [Chapter 8 - Practice Set](https://iamwatchdogs.github.io/Front-end/HTML_CSS/Practice/CSS%20Practice%20Set/Chapter%208/)
 
 ## Instructions:
 
@@ -6,6 +6,8 @@
 - [ ] Create the same **progress bar using trasition**.
 - [ ] Create a **rotating image animation** using CSS.
 - [ ] Create a **slider** with *3 images* using CSS.
+
+> [View the Page](https://iamwatchdogs.github.io/Front-end/HTML_CSS/Practice/CSS%20Practice%20Set/Chapter%208/)
 
 ---
 

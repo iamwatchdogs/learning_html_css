@@ -1,4 +1,4 @@
-# Chapter 1 - Practice Set
+# [Chapter 1 - Practice Set](https://iamwatchdogs.github.io/Front-end/HTML_CSS/Practice/CSS%20Practice%20Set/Chapter%201/)
 
 ## Instructions:
 
@@ -7,6 +7,8 @@
 - [x] Create a *CSS class one* and **verify** that it *works on multiple elements*.
 - [x] Create **multiple CSS classes** and verify that all of these work on the same element.
 - [x] Have a look at the [MDN CSS reference](https://developer.mozilla.org/en-US/docs/Web/CSS "Goto MDN CSS reference") and try to **play around** with few key-value CSS rules.
+
+> [View the Page](https://iamwatchdogs.github.io/Front-end/HTML_CSS/Practice/CSS%20Practice%20Set/Chapter%201/)
 
 ---
 
