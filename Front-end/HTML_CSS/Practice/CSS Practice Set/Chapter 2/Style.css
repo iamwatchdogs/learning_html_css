@@ -1,0 +1,45 @@
+nav .nav-bar{
+    background-color: darkblue;
+    color: lightblue;
+}
+
+main .main {
+    background-color: darkred;
+}
+
+.image img {
+    /* you can use "auto" also to give the default value i.e., the original proportions of the image */
+    width: 400;
+    height: 267;
+}
+
+.box {
+    height: 2000px;
+    width: 400px;
+    background: url("../../src/img/vacation_400_x_267.jpg");
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-color: rgb(125, 163, 196);
+    background-attachment: fixed;
+    background-size: 400px 300px;
+
+    /* You can style all those 
+    background properties in a single line as a shrot hand property like: 
+
+    background: <color> <image> <repeat> <attachment> <position>;
+
+    background: rgb(125, 163, 196) url("../../src/img/vacation_400_x_267.jpg") no-repeat local center  ; */
+
+}
+
+.another-box {
+
+    width: 700px;
+    height: 500px;
+
+    /* The background short hand syntax:
+
+    background: <color> <image> <repeat> <attachment> <position>; */
+
+    background: steelblue url("../../src/img/vacation_400_x_267.jpg") no-repeat right top;
+}
