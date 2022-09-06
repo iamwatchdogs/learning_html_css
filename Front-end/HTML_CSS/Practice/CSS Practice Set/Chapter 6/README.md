@@ -7,13 +7,13 @@
 - [ ] Create the following **navigation bar** using **flexbox**.
   
 <div align="center">
-    <img src="../Chapter%206/src/Instruct_3_nav_bar.PNG" alt="Navigation Bar from Instruction 3" />
+    <img src="src/Instruct_3_nav_bar.PNG" alt="Navigation Bar from Instruction 3" />
 </div>
 
 - [ ] Create the following **layout using flexbox**.
 
 <div align="center">
-    <img src="../Chapter%206/src/Instruct_4_flexbox_layout.PNG" alt="Flex box Layout from Instruction 4" />
+    <img src="src/Instruct_4_flexbox_layout.PNG" alt="Flex box Layout from Instruction 4" />
 </div>
 
 ---
