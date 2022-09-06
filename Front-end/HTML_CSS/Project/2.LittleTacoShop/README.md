@@ -1,4 +1,4 @@
-# Little Taco Shop
+# [Little Taco Shop](https://iamwatchdogs.github.io/Front-end/HTML_CSS/Project/Little%20Taco%20Shop/ "View Project Little Taco Shop")
 
 - **Little Taco Shop** is a mini learning project given by [Dave Gray](https://github.com/gitdagray).
 -  This project contain 3 different HTML file.
@@ -7,6 +7,8 @@
    - [Contact Page](https://github.com/iamwatchdogs/FSWD_hands_on/tree/main/Front-end/HTML_CSS/Project/2.LittleTacoShop/contact.html)
 - For Reference:
     > [https://github.com/gitdagray/html_course/tree/main/10_lesson_starter/examples](https://github.com/gitdagray/html_course/tree/main/10_lesson_starter/examples)
+
+> [View the Page](https://iamwatchdogs.github.io/Front-end/HTML_CSS/Project/Little%20Taco%20Shop/ "View Project Little Taco Shop")
 
 ## Requirements: 
 
