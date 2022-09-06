@@ -5,7 +5,7 @@
 - [ ] Create The Following **Website layout**.
   
 <div align="center">
-    <img src="src/Q1.Website_Layout.PNG" alt="Practice Set Chapter - 4, Q1. Website Layout" />
+    <img src="src/Instruct_1_Website_Layout.PNG" alt="Practice Set Chapter - 4, Q1. Website Layout" />
 </div>
 
 - [ ] **Add a footer** with [Google Font](https://fonts.google.com/ "Goto Google Fonts") to the *"Ballu Bhai"* to {Instruction 1}.
