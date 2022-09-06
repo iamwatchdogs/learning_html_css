@@ -1,5 +1,4 @@
 # Chapter 1 - Practice Set
----
 
 ## Instructions:
 
@@ -9,8 +8,13 @@
 - [x] Create **multiple CSS classes** and verify that all of these work on the same element.
 - [x] Have a look at the [MDN CSS reference](https://developer.mozilla.org/en-US/docs/Web/CSS "Goto MDN CSS reference") and try to **play around** with few key-value CSS rules.
 
-##### Status of Practice Set : Done :+1:
-  
+---
+
+### Status of Practice Set :
+
+- [x] Finished :+1:
+- [x] Verified by [W3C vaildator ](https://validator.w3.org/#validate_by_upload "Goto W3c vaildator")
+
 ---
 
 ### Source Link of Practice set:
