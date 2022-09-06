@@ -3,7 +3,7 @@
 ## Instructions:
 
 - [ ] **Create a header** with content **using CSS grid**.
-- [ ] **Create the layout** created in [`Chapter-6 Practice Set`](../Chapter%206/ "Go back to Chapter-6 Practice Set") using **CSS grid*.
+- [ ] **Create the layout** created in [`Chapter-6 Practice Set`](../Chapter%206/ "Go back to Chapter-6 Practice Set") using **CSS grid**.
 - [ ] **Create a webpage** which is *green* on large device, *red* on medium & *yellow* on small devices.
 
 ---
