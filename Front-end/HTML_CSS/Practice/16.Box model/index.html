@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initital-scale=1.0" />
+
+        <meta name="author" content="Sam" />
+        <meta name="description" content="Learning CSS Box model" />
+
+        <link rel="icon" href="../src/html5.png" type="image/icon-x" />
+        <link rel="stylesheet" href="../src/main.css" type="text/css" />
+        <link rel="stylesheet" href="style.css" type="text/css" />
+
+        <title>Box Model</title>
+
+    </head>
+
+    <body>
+
+        <h1><u>Box Model</u></h1>
+        <p>The box model is as follows :</p>
+        <div class="box-model-img"></div>
+
+        <hr>
+
+        <h2><u>What will be the height of the box ?</u></h2>
+        <p>The Total height = <code>height + Top/Bottom Padding + Top/Bottom Border + Top/Bottom margin</code></p>
+        
+        <hr>
+
+        <h2>Adding Padding</h2>
+        <p>We can add margin and padding, as follows:</p>
+        <p class="example margin-and-padding">
+            <code>
+                .box-with-marign-and-padding {
+                    <br>&nbsp;&nbsp;&nbsp;&nbsp;background: rgb(255, 103, 48) url(data:image/png;...) no-repeat;
+                    <br>&nbsp;&nbsp;&nbsp;&nbsp;margin: 2px 50% 1px 50%;
+                    <br>&nbsp;&nbsp;&nbsp;&nbsp;padding: 2rem 1rem;
+                    <br>}
+            </code>
+        </p>
+        <div class="box-with-marign-and-padding"></div>
+
+        <hr>
+
+        <h2>Adding Border</h2>
+        <p>We can add border, as follows</p>
+        <p class="example border">
+            <code>
+                .box-with-border {
+                    <br>&nbsp;&nbsp;&nbsp;&nbsp;background: aqua;
+                    <br>&nbsp;&nbsp;&nbsp;&nbsp;margin: auto;
+                    <br>&nbsp;&nbsp;&nbsp;&nbsp;border: 5px solid rgb(255, 0, 34);
+                    <br>}
+            </code>
+        </p>
+        <div class="box-with-border"></div>
+
+        <hr>
+
+        <h2>Border Radius</h2>
+        <p>We can change border Radius, as follows</p>
+        <p class="example border-radius">
+            <code>
+                .box-with-border-radius {
+                    <br>&nbsp;&nbsp;&nbsp;&nbsp;background: greenyellow;
+                    <br>&nbsp;&nbsp;&nbsp;&nbsp;border: 5px solid rgb(25, 28, 199);
+                    <br>&nbsp;&nbsp;&nbsp;&nbsp;border-radius: 25px;
+                    <br>}
+            </code>
+        </p>
+        <div class="box-with-border box-with-border-radius"></div>
+
+        <hr>
+
+        <h2>Margin Collapse</h2>
+        <p>
+            Margin Collapse tells us that the neighboring box element will be sharing the same margin. If the both neighboring box elements has the same marign level, then the distance between them will ONLY the size of the margin ( thinking that other factors like padding and border are excluded ).
+        </p>
+        <p>
+            But if there is a difference between the sized of the margin of the neighboring box elementrs then the one which has the greater margin size will be shared among them, just like the below pictures,
+        </p>
+        <figure>
+            <img src="src/margin_30px.png" alt="The greater margin" title="The greater margin box element" width="960" height="254" class="imgs"/>
+            <figcaption>The greater margin box element</figcaption>
+        </figure>
+        <figure>
+            <img src="src/margin_20px.png" alt="The smaller margin" title="The smaller margin box element" width="960" height="254" class="imgs"/>
+            <figcaption>The smaller margin box element</figcaption>
+        </figure>
+        <br>
+        <p>For example : </p>
+        <p><em>( use "dev tools" like inspect from chrome for below examples )</em></p>
+        <div class="box greater-margin"></div>
+        <div class="box lower-margin"></div>
+
+        <hr>
+
+        <h2>Box Sizing</h2>
+        <p>
+            It Determines what out of padding and border is included in elements width and height. basically, this concept works on the bases of inheriting. There might be some cases where the child box element exceeds the size of its parent's size, this might lead to some serious problems. So, this types of problems can be handled by <q>Box Sizing</q>.
+        </p>
+        <p>Read and try it yourself in MDN Documentation,</p>
+        <iframe src="https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing" title="MDN Documentation" width="1890" height="500" allow></iframe>
+        <br>
+        <p>Now,Let's take an example :</p>
+        <p class="example without-box-sizing">
+            <code>
+                <span class="parent">
+                    .parent-box{
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;width: 700px;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;height: 400px;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;background: rgb(233, 75, 75);
+                        <br>}
+                </span>
+                <span class="child">
+                    <br>.child-box{
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;width: 600px;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;height: 100px;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;padding: 100px;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;border: 50px;
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;background: rgb(80, 80, 231);
+                        <br>}
+                </span>
+            </code>
+        </p>
+        <div class="parent-box">
+            <div class="child-box"></div>
+        </div>
+        <br>
+        <p>But by adding, <em>( observe the difference )</em></p>
+        <p class="example with-box-sizing">
+            <code>
+                .child-box-with-box-sizing {
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;box-sizing: border-box;
+                <br>}
+            </code>
+        </p>
+        <div class="parent-box">
+            <div class="child-box child-box-with-box-sizing"></div>
+        </div>
+
+    </body>
+
+
+</html>
