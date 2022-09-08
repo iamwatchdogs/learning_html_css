@@ -1,1 +1,28 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 90px;
+    background: rgb(47, 132, 218);
+    border: 3px solid blue;
+    margin: 2px auto;
+    padding: 5px;
+}
+footer {
+    background: rgb(16 153 16);
+    border: 3px solid red;
+    margin: 4px auto;
+    padding: 2px;
+}
+footer p {
+    text-align: center;
+}
+.content-box{
+    height: 87vh;
+    background: rgb(194, 113, 83);
+    border: 3px solid whitesmoke;
+    margin: 6px auto;
+    padding: 4px;
+}

@@ -2,10 +2,10 @@
 
 ## Instructions:
 
-- [ ] Create a **website layout**. Add a **header box, 1 content box and one footer**.
-- [ ] Add **borders & margins** to {Instruction 1}.
-- [ ] **Did the margin collapse** betweem Content box & footer.
-- [ ] Add the **box-sizing property** to Content box. *Observe the changes* you notice.
+- [x] Create a **website layout**. Add a **header box, 1 content box and one footer**.
+- [x] Add **borders & margins** to {Instruction 1}.
+- [x] **Did the margin collapse** betweem Content box & footer. *Ans: [ Yes they did ]*
+- [x] Add the **box-sizing property** to Content box. *Observe the changes* you notice.
   
 > [View the Page](https://iamwatchdogs.github.io/Front-end/HTML_CSS/Practice/CSS%20Practice%20Set/Chapter%203/)
 
@@ -13,8 +13,8 @@
 
 ### Status of Practice Set :
 
-- [ ] Finished :+1:
-- [ ] Verified by [W3C vaildator ](https://validator.w3.org/#validate_by_upload "Goto W3c vaildator")
+- [x] Finished :+1:
+- [x] Verified by [W3C vaildator ](https://validator.w3.org/#validate_by_upload "Goto W3c vaildator")
 
 ---
 
