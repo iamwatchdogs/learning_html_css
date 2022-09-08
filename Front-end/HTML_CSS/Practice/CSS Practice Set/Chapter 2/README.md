@@ -21,7 +21,7 @@
 
 ### Source Link of Practice set:
 
-- [Veiw the practice set](https://drive.google.com/file/d/1ixsoDb8mCuIZWCHQyOb7jc735BDDsiHe/view "Goto Practice Set")
+- [View the practice set](https://drive.google.com/file/d/1ixsoDb8mCuIZWCHQyOb7jc735BDDsiHe/view "Goto Practice Set")
 
 ---
 ### Leaning Source :
