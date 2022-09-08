@@ -20,6 +20,171 @@
 
     <body>
 
+        <header>
+            <h1><u>Display Property</u></h1>
+            <hr>
+            <p>
+                All of the elements in html is divided into two types i.e., <span style="color: rgb(107, 170, 221);"><em>Block elements</em></span> and <span style="color:aqua;"><em>inline elements</em></span>.
+            </p>
+            <p style="color:aqua;">
+                The <q>inline elements</q> are the elements which take the only space which is required to fit its contents.
+            </p>
+            <p style="color: rgb(107, 170, 221);">
+                The <q>Block elements</q> are the elements are the elements which take up whole block-sized spacing for its content. These elements don't let other element around its boundary, like an introvert...
+            </p>
+            <p>
+                While setting up different elements in html page, we might have a suitation where we need to set element in the same line. And this might be problematic when using block elements. So, we use the <q>Display property</q>.
+            </p>
+        </header>
+
+        <hr style="width:90%;">
+
+        <main>
+
+            <p>
+                Now, Let's see some of the values that can be assigned to this property and thier examples :
+            </p>
+
+            <hr style="width:20%;">
+            <hr style="width:25%;">
+            <hr style="width:20%;">
+
+            <article id="inline">
+                <h2>1) Inline</h2>
+                <p>
+                    By assigning this value to <q>display property</q>, we can change element into an inline element i.e., when we change an block element into inline element then irrespective of its width and height <em>( even mentioned ones )</em> the element will be occupying only the required space.
+                </p>
+
+                <p>Let's us see an example : </p>
+
+                <p class="towards-left"><em>Before:</em></p>
+                <div class="example-box">
+                    <p class="block-example-1">Block 1</p>
+                    <p class="block-example-2">Block 2</p>
+                </div>
+
+                <p class="towards-left"><em>After:</em></p>
+                <div class="example-box">
+                    <p class="block-to-inline block-example-1">Block 1</p>
+                    <p class="block-to-inline block-example-2">Block 2</p>
+                </div>
+            </article>
+
+            <hr style="width:80%;">
+
+            <article id="block">
+                <h2>2) Block</h2>
+                <p>
+                    This does the exact opposite thing as the inline value would do. This value will change an inline element to a block element.
+                </p>
+
+                <p>Let's us see an example : </p>
+
+                <p class="towards-left"><em>Before:</em></p>
+                <div class="example-box">
+                    <p>
+                        <span class="inline-example-1">Inline element 1</span>
+                        <span class="inline-example-2">Inline element 2</span>
+                    </p>
+                </div>
+
+                <p class="towards-left"><em>After:</em></p>
+                <div class="example-box">
+                    <p>
+                        <span class="inline-to-block inline-example-1">Inline element 1</span>
+                        <span class="inline-to-block inline-example-2">Inline element 2</span>
+                    </p>
+                </div>
+            </article>
+
+            <hr style="width:80%;">
+
+            <article id="inline-block">
+                <h2>3) Inline-Block</h2>
+                <p>
+                    In some suitation, we might want an element to be an block element, consisting its contents within its boundaries, and also show similar properties to that of the inline block. In such suitation, we use inline-block property value.
+                </p>
+                <p>
+                    The elements assigned with <q>display</q> property with <q>inline-block</q> value works like an hybrid of inline elements and block elements. These elements are like the block elements which support inline property (or) the block elements which allow other elements to be placed side-ways of this element as it won't be occupying the extra space like an <q>original block element</q>.
+                </p>
+                <br>
+
+                <p>Let's us see an example : </p>
+
+                <p class="towards-left"><em>Before:</em></p>
+                <div class="example-box">
+                    <p class="block-example-1">Block</p>
+                    <p class="block-to-inline inline-example-1">Inline</p>
+                </div>
+
+                <p class="towards-left"><em>After:</em></p>
+                <div class="example-box">
+                    <p class="to-inline-block block-example-1">Block</p>
+                    <p class="block-to-inline inline-example-1">Inline</p>
+                </div>
+            </article>
+
+            <hr style="width:80%;">
+
+            <article id="none">
+                <h2>4) None</h2>
+                <p>
+                    The value <q>none</q> will take away the element itself. Thus <strong>no space</strong> will be allocated for that element, hence other elements can make use of it.
+                </p>
+                <br>
+
+                <p>Let's us see an example : </p>
+
+                <p class="towards-left"><em>Before:</em></p>
+                <div class="example-box">
+                    <p class="to-inline-block block-example-1">Block</p>
+                    <p class="block-to-inline inline-example-1">Inline</p>
+                </div>
+
+                <p class="towards-left"><em>After:</em></p>
+                <div class="example-box">
+                    <p class="display-none block-example-1">Block</p>
+                    <p class="block-to-inline inline-example-1">Inline</p>
+                </div>
+            </article>
+
+            <hr style="width:80%;">
+
+            <article id="display-none-vs-visibility-hidden">
+                <h2>display: none VS visibility: hidden</h2>
+                <p>
+                    The major differene between both of these properties is that the <q>visibility: hidden</q> property will make the element invisible but actually here are still there, But as for <q>display: none</q> property, it will remove the element itself.
+                </p>
+
+                <p>Let's us see an example : </p>
+                <p style="color:rgb(75, 211, 120);">
+                    <em>
+                        The below example is from property <q>visibility: hidden</q>, 
+                        <br>refer the above example for <q>display: none</q> property.
+                    </em>
+                </p>
+
+                <p class="towards-left"><em>Before:</em></p>
+                <div class="example-box">
+                    <p class="to-inline-block block-example-1">Block</p>
+                    <p class="block-to-inline inline-example-1">Inline</p>
+                </div>
+
+                <p class="towards-left"><em>After:</em></p>
+                <div class="example-box">
+                    <p class="visibility-hidden block-example-1">Block</p>
+                    <p class="block-to-inline inline-example-1">Inline</p>
+                </div>
+            </article>
+
+        </main>
+
+        <hr style="width:90%;">
+
+        <footer>
+            <p>--- That's All for this chapter ---</p>
+        </footer>
+        
     </body>
 
 </html>

@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+h1,p {
+    margin: 0.6em;
+}
+p {
+    line-height: 35px;
+}
+hr {
+    margin: 15px auto;
+}
+.towards-left{
+    margin-left: 25%;
+    margin-right: 75%;
+}
+.example-box {
+    height: 106px;
+    width: 600px;
+    background: grey;
+    margin: 20px auto;
+    padding: 5px 5px;
+}
+.example-box-2 {
+    height: 600px;
+    width: 700px;
+    background: grey;
+    margin: 20px auto;
+    padding: 5px 5px;
+}
+.block-example-1 {
+    background: rgb(228, 138, 157);
+}
+.block-example-2 {
+    background: rgb(184, 78, 101);
+}
+.block-to-inline {
+    display: inline; 
+}
+.inline-example-1 {
+    background: rgb(66, 196, 196);
+}
+.inline-example-2 {
+    background: rgb(144, 214, 191);
+}
+.inline-to-block {
+    display: block; 
+}
+.to-inline-block {
+    display: inline-block;
+    height: 75px;
+    width: 100px;
+    margin: 5px;
+    padding: 20px;
+    margin: 0;
+}
+.display-none {
+    display: none;
+}
+.visibility-hidden {
+    visibility: hidden;
+}
