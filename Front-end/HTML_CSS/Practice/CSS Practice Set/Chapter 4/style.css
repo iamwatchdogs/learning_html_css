@@ -1,1 +1,43 @@
-
+* {             /* Use these VS Code shortcuts */
+    margin: 0;  /* m:0 */
+    padding: 0; /* p:0 */
+    box-sizing: border-box; 
+}
+header nav {
+    height: 100px;
+    width: 100%;
+    background: black;
+    padding: 12px 32px;
+    margin: 2px;
+}
+header nav ul li {
+    display: inline-block;
+    margin: 25px 90px;
+    text-align: start;
+}
+header nav ul li a {
+    text-decoration: none;
+}
+footer p {
+    font-family: 'Baloo Bhai 2', cursive;
+    text-transform: uppercase;
+    padding: 5px;
+}
+.align-to-center {
+    text-align: center;
+}
+.red-box {
+    display: inline-block;
+    background: red;
+    height: 75vh;
+    width: 50%;
+    /* display: none; */
+    /* visibility: hidden; */
+}
+.green-box {
+    display: inline-block;
+    background: green;
+    height: 75vh;
+    width: 50%;
+    /* visibility: hidden; */
+}
