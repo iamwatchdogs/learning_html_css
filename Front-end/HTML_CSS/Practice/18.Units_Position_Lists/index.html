@@ -20,6 +20,184 @@
 
     <body>
 
+        <h1>Units - Position - List</h1>
+
+        <br>
+        <hr class="full-hr">
+
+        <h2>Units</h2>
+        <p>
+            Always using pixels units is not practice and it does not completely encourage the responsive design. We use different unit for different purpose for even better designning which encourages responsive-ness. These units ar also known as <strong>Relative Units</strong>.
+        </p>
+        <br>
+        <hr>
+        <p>
+            <strong>em</strong> : is the unit which sizes the element based on its parent element. for example,
+        </p>
+        <p class="parent-1">
+            Inside parent ( font-size: 20px; )
+            <br>
+            <span class="child-1">
+                Inside child ( font-size: 2em => 2*20px => 40px; )
+            </span>
+        </p>
+
+        <br>
+        <hr>
+
+        <p>
+            <strong>%</strong> : works relatively w.r.t., the size of the parent element. for example,
+        </p>
+        <p class="parent-2">
+            Inside parent ( font-size: 40px; )
+            <br>
+            <span class="child-2">
+                Inside child ( font-size: 50% of 40px => 20px; )
+            </span>
+        </p>
+
+       <br>
+       <hr>
+
+       <p>
+            <strong>rem</strong> : is the unit which is based on the <q>html</q> tag itself. for example,
+       </p>
+       <p class="rem-example-parent">
+            html sized text ( html { font-size :22px; } )
+            <br>
+            <span class="rem-example-child">
+                text ( .rem-example-child { font-size : 1.5 rem => 1.5*22px; } )
+            </span>
+       </p>
+
+       <br>
+       <hr>
+
+       <p>
+            <strong>vw</strong> : is called viewport width. And it's assigns the sizing units based on the users device width. It will assign the value with a relation of the given value and the device width value. for example, 
+       </p>
+       <p class="non-vw-example">Normal sized text.</p>
+       <p class="vw-example">
+            text ( .vw-example { width: 50vw => half of device width; } )
+        </p>
+
+        <br>
+        <hr>
+
+        <p>
+            <strong>vh</strong> : is known as viewport height. And it's assigns the sizing units based on the users device height. It will assign the value with a relation of the given value and the device height value. for example,
+        </p>
+        <p class="non-vh-example">Normal sized text.</p>
+        <p class="vh-example">
+            text ( .vh-example { width: 50vh => half of device height; } )
+        </p>
+
+
+        <br>
+        <hr class="hr-95">
+
+
+        <h2>Min/Max - height/width</h2>
+        <p>
+            The concept of min/max-width/height is used to set the minimum or maximum value of the elements width or height.
+            for example,
+        </p>
+        <p class="min-height-example">
+            This block element can not have height below 25vh. As we have set the min-height as 25vh.
+        </p>
+        <p class="max-width-example">
+            This block element can not have width above 25vw. As we have set the max-width as 25vw.
+        </p>
+
+        <br>
+        <hr class="hr-95">
+
+        <h2>Position</h2>
+        <div class="explain-position">
+            <p>
+                All the content mentioned in the HTML document will be displayed according to the <q>Document Flow</q>. Document flow is something that tells which element should be displayed in which order, and basically it display elements one after another from beginning of the html page to the end of it.
+            </p>
+            <p>
+                Positioning is a property which allows to position elements w.r.t its surrounding element. Each value give to this property
+                describes the position of the element at a ceratin suitation.
+            </p>
+            <p>
+                By default all the elements will be of value <q>static</q>, which means it follows the exact same order of document flow to display the html page.
+            </p>
+            <p>
+                When the the position of any element is <q>static</q>, then we can not use any of the position-related property like top, bottom, left, right and z-index. So, let's see how it behaves with values other than <q>static</q>.
+            </p>
+        </div>
+
+        <hr>
+
+        <h3>1) Relative</h3>
+        <p>
+            When we assign <q>relative</q> to position property, then we can start using the position property like top, bottom, e.t.c.,
+        </p>
+        <p>Lets us see an example now,</p>
+        <div class="parent-dimension relative-example-parent">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consectetur tenetur harum ipsum magnam numquam?
+            </p>
+            <div class="child-dimension child-position relative-example-child">
+                <p>
+                    <code>
+                        .relative-example-child {
+                            <br>&nbsp;&nbsp;&nbsp;...;
+                            <br>&nbsp;&nbsp;&nbsp;bottom: 50px;
+                            <br>&nbsp;&nbsp;&nbsp;left: 60px;
+                        <br>}
+                    </code>
+                </p>
+            </div>
+        </div>
+
+        <hr>
+
+        <h3>2) Absolute</h3>
+        <p>
+            If we assign <q>absolute</q> value to position property then the element of this property will not be consider to be existing in the <q>Document Flow</q> but actually it odes exists.
+        </p>
+        <p>
+            We can set the position property like top, right, e.t.c., w.r.t., an referencing element this time. This referencing element should the <q>non-static</q> parent element. If its parent is not an static element then it will check whether its parent element is a <q>non-static</q> element or not. This happens until it comes to the &lt;html&gt; tag itself and since there is no parent tag for &lt;html&gt; tag thus it becomes the reference element for setting position.
+        </p>
+        <p>Lets us see an example now,</p>
+        <div class="parent-dimension absolute-example-parent">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consectetur tenetur harum ipsum magnam numquam?
+            </p>
+            <div class="child-dimension child-position absolute-example-child">
+                <p>
+                    <code>
+                        .absolute-example-child {
+                            <br>&nbsp;&nbsp;&nbsp;...;
+                            <br>&nbsp;&nbsp;&nbsp;bottom: 50px;
+                            <br>&nbsp;&nbsp;&nbsp;left: 60px;
+                        <br>}
+                    </code>
+                </p>
+            </div>
+        </div>
+
+        <hr>
+
+        <h3>3) fixed</h3>
+        <p>
+            If we assign <q>fixed</q> value to position property then that element will be set in the fixed position of the browser window.
+        </p>
+        <p>for example :</p>
+        <iframe src="fixed_example.html" width="100%" height="250px"></iframe>
+
+        <hr>
+
+        <h3>4) Sticky</h3>
+        <p>
+            This one is mostly used for creating a scrolling feel for the user, like how the menu bar of some website sticks around until some extend.
+        </p>
+        <iframe src="sticky_example.html" width="100%" height="250px"></iframe>
+
+
     </body>
 
 </html>

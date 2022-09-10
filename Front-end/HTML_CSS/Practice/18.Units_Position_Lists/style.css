@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,p {
+    text-align: center;
+}
+p {
+    margin: 25px 0;
+}
+hr {
+    margin: 15px auto;
+    width: 90%;
+}
+iframe {
+    border: 5px solid rgb(0, 0, 0);
+}
+.full-hr{
+    width: 100%;
+}
+.hr-95 {
+    width: 95%;
+}
+.parent-1 {
+    font-size: 20px;
+    background: rgb(100, 187, 187);
+}
+.child-1 {
+    font-size: 2em;
+    background: rgb(68, 156, 156);
+}
+.parent-2 {
+    font-size: 40px;
+    background: rgb(71, 228, 155);
+}
+.child-2 {
+    font-size: 50%;
+    background: rgb(46, 116, 116);
+}
+.rem-example-parent{
+    background-color: rgb(123, 61, 180);
+}
+.rem-example-child {
+    font-size: 1.5rem;
+    background-color: rgb(96, 49, 139);
+}
+.non-vw-example {
+    background-color: rgb(197, 143, 63);
+}
+.vw-example {
+    background-color: rgb(145, 114, 69);
+    width: 50vw;
+    margin: auto;
+}
+.non-vh-example {
+    background-color: brown;
+}
+.vh-example{
+    background-color: rgb(128, 48, 48);
+    height: 50vh;
+}
+.min-height-example {
+    display: inline-block;
+    background-color: rgb(167, 141, 111);
+    height: 10px;
+    width: 30vw;
+    min-height: 310px;
+    margin: 6vw;
+}
+.max-width-example {
+    display: inline-block;
+    background-color: rgb(209, 198, 97);
+    height: 40vh;
+    width: 30vw;
+    max-width: 142px;
+    margin: 6vw;
+}
+.explain-position {
+    background: linear-gradient( rgb(226, 89, 89), rgba(211, 123, 82, 0.815));
+}
+.parent-dimension {
+    height: 65vh;
+    width: 90vw;
+    margin: auto;
+}
+.child-dimension {
+    height: 32vh;
+    width: 34vw;
+    min-width: 215px;
+}
+.child-position {
+    bottom: 50px;
+    left: 60px;
+}
+.relative-example-parent,.absolute-example-parent p {
+    border: 5px solid rgb(0, 0, 0);
+}
+.relative-example-child,.absolute-example-child p {
+    text-align: start;
+}
+.relative-example-parent {
+    background-color: chocolate;
+}
+.relative-example-child {
+    background-color: rgb(168, 92, 37);
+    position: relative;
+}
+.absolute-example-parent {
+    background-color: rgb(202, 91, 113);
+    position: relative;
+}
+.absolute-example-child {
+    background-color: rgb(170, 70, 90);
+    position: absolute;
+}
