@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initital-scale=1.0" />
+
+        <meta name="author" content="Sam" />
+        <meta name="description" content="For practicing fixed value of position property." />
+
+        <link rel="icon" href="../src/html5.png" type="image/icon-x" />
+        <link rel="stylesheet" href="../src/main.css" type="text/css" />
+
+        <style>
+            h1,p {
+                text-align: center;
+            }
+            .for-scrolling {
+                height: 500vh;
+                width: 90vw;
+                margin: auto;
+                background: linear-gradient(rgb(223, 73, 73), rgb(206, 133, 64), rgb(228, 189, 59));
+            }
+            .fixed-position{
+                position: fixed;
+                background-color: rgb(66, 72, 155);
+                height: 200px;
+                width: 200px;
+                right: 0px;
+                bottom: 0px;
+            }
+        </style>
+
+        <title>fixed position</title>
+
+    </head>
+
+    <body>
+        <h1>Fixed Position</h1>
+        <div class="for-scrolling">
+            <p>Scroll down</p>
+        </div>
+        <div class="fixed-position">
+            <p>
+                The content here is fixed in this position
+            </p>
+        </div>
+    </body>
+
+</html>
