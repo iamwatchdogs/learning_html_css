@@ -96,10 +96,10 @@ iframe {
     bottom: 50px;
     left: 60px;
 }
-.relative-example-parent,.absolute-example-parent p {
+.relative-example-parent p, .absolute-example-parent p {
     border: 5px solid rgb(0, 0, 0);
 }
-.relative-example-child,.absolute-example-child p {
+.relative-example-child p, .absolute-example-child p {
     text-align: start;
 }
 .relative-example-parent {
