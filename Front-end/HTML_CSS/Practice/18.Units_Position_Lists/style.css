@@ -13,6 +13,9 @@ hr {
     margin: 15px auto;
     width: 90%;
 }
+ul {
+    margin: 12vw;
+}
 iframe {
     border: 5px solid rgb(0, 0, 0);
 }
@@ -113,4 +116,25 @@ iframe {
 .absolute-example-child {
     background-color: rgb(170, 70, 90);
     position: absolute;
+}
+.list-style-syntax {
+    color:rgb(71, 228, 155);
+}
+.list-style-example-box {
+    width: 90vw;
+    height: 32vh;
+    margin: auto;
+    background-color: darkcyan;
+}
+.list-style-example-1 {
+    list-style: square;
+    display: inline-block;
+}
+.list-style-example-2 {
+    list-style: circle outside;
+    display: inline-block;
+}
+.list-style-example-3 {
+    list-style: disc outside url(../src/html5.png);
+    display: inline-block;
 }
