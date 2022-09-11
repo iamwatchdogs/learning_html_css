@@ -138,3 +138,8 @@ iframe {
     list-style: disc outside url(../src/html5.png);
     display: inline-block;
 }
+.for-iframe {
+    width: 90vw;
+    height: 40vh;
+    margin: 3vw;
+}
