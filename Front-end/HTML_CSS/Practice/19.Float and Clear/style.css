@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2 {
+    text-decoration: underline;
+}
+h1,h2,p {
+    text-align: center;
+}
+hr,p {
+    margin: 16px 0;
+}
+.container {
+    width: 90vw;
+    height: 70vh;
+    margin: auto;
+    background-color: rgb(212, 82, 108);
+    border: black solid 5px;
+}
+.box {
+    width: 30vw;
+    height: 45vh;
+}
+.small-box {
+    width: 20vw;
+    height: 40vh;
+}
+.box1 {
+    background-color:rgb(45, 181, 184);
+    border: rgb(255, 255, 255) solid 5px;
+}
+.box2 {
+    background-color:rgb(61, 180, 130);
+    border: rgb(255, 255, 255) solid 5px;
+}
+.box3 {
+    background-color:rgb(111, 158, 90);
+    border: rgb(0, 0, 0) solid 5px;
+}
+.box3 p {
+    position: absolute;
+    top: 45vh;
+    left: 27vw;
+    font-size: 20px;
+}
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.side-heading {
+    text-align: start;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-style: italic;
+}
+.box-for-overflow {
+    width: 48%;
+    height: 35vh;
+    margin: .8vw;
+}
+.box3-for-overflow {
+    width: 100%;
+    height: 28vh;
+}
+.clear-the-float {
+    clear: both;
+}

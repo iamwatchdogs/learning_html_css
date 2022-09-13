@@ -19,6 +19,58 @@
     </head>
 
     <body>
+        <h1>Float and Clear Alignment</h1>
+
+        <hr>
+
+        <article id="Float-Property">
+
+            <h2>Float</h2>
+            <p>
+                <strong>float</strong> property is float the element within its parent block, we can also float it out of its parent block but its not that recommended. The element can float over element dispite other elements occupying the place.
+            </p>
+            <p>
+                lets us see an example,
+            </p>
+            <div class="container">
+                <div class="small-box box1 float-left">
+                    <p>Floating towards left</p>
+                </div>
+                <div class="box box2 float-right">
+                    <p>Floating towards right</p>
+                </div>
+                <div class="box box3">
+                    <p>See <br> how <br> the <br> box1 <br> is <br> over <br> this <br> box.</p>
+                </div>
+            </div>
+
+        </article>
+        
+        <hr>
+
+        <article id="Clear-Property">
+
+            <h2>Clear Property</h2>
+            <p>
+                In some case, while using float things might get a bit out of control and overflow from where they are supposed to be. Then we use the <q>clear</q> property to clear this overflowing problem.
+            </p>
+            <p>
+                lets us see an example,
+            </p>
+            <p class="side-heading">Before :</p>
+            <div class="container">
+                <div class="box-for-overflow box1 float-left"></div>
+                <div class="box-for-overflow box2 float-right"></div>
+                <div class="box3-for-overflow box3"></div>
+            </div>
+            <p class="side-heading">After :</p>
+            <div class="container">
+                <div class="box-for-overflow box1 float-left"></div>
+                <div class="box-for-overflow box2 float-right"></div>
+                <div class="box3-for-overflow box3 clear-the-float"></div>
+            </div>
+
+        </article>
 
     </body>
 
