@@ -20,6 +20,243 @@
 
     <body>
 
+        <h1>FlexBox</h1>
+        <hr>
+        <p>
+            FlexBox is one of the crucial features of the CSS which  provides the ease of alignment of elements just by specifying the flexbox properties in parent and its child elements.
+        </p>
+        <p>
+            We can use this feature only when we have set the <q>display</q> property as <q>flex</q>
+        </p>
+
+        <hr>
+
+        <h2>FlexBox - Parent properties :</h2>
+
+        <hr class="hr-95">
+
+        <h3>1) display</h3>
+        <p>
+            As we have discussed earlier, we have to keep the value of <q>display</q> property as <q>flex</q> to use the flexbox features.
+        </p>
+        <p>
+            <code>
+                .container {
+                    display: flex;
+                }
+            </code>
+        </p>
+
+        <hr class="hr-80">
+
+        <h3>2) flex-direction</h3>
+        <p>
+            <q>flex-direction</q> is used to set the display of document flow of the children of the specified container. Its values can be <em>row</em>, <em>row-reverse</em>, <em>column</em>, <em>column-reverse</em>, ( where the <q>row</q> is the default value ).
+        </p>
+        <p>
+            for example,
+        </p>
+        <p>
+            <code>
+                .flex-direction-column-reverse {
+                    flex-direction: column-reverse;
+                }
+            </code>
+        </p>
+        <div class="container flex-direction-column-reverse">
+            <div class="box-size box1"><p>box 1</p></div>
+            <div class="box-size box2"><p>box 2</p></div>
+            <div class="box-size box3"><p>box 3</p></div>
+        </div>
+
+        <hr class="hr-80">
+
+        <h3>3) flex-wrap</h3>
+        <p>
+            <q>flex-wrap</q> property is used to wrap the children elements while resizing the browser / display window. This property encourages responsive-ness. This property can have the following values; <em>wrap</em>, <em>wrap-reverse</em>, <em>nowrap</em> (default).
+        </p>
+        <p>
+            <strong>Note:</strong>
+            <br> Note that giving a relative sizing units to the children element will not show any affect of these properties as they are already responsive and will resizing themselves to adjust to the new size.
+        </p>
+        <p>
+            for example,
+        </p>
+        <p>
+            <code>
+                .flex-wrap-wrap {
+                    flex-wrap: wrap;
+                }
+            </code>
+        </p>
+        <div class="container flex-wrap-wrap">
+            <div class="box-size fixed-box-size box1"><p>box 1</p></div>
+            <div class="box-size fixed-box-size box2"><p>box 2</p></div>
+            <div class="box-size fixed-box-size box3"><p>box 3</p></div>
+        </div>
+
+        <hr class="hr-80">
+
+        <h3>4) justify-content</h3>
+        <p>
+            <q>FlexBox</q> does alignment with help of two asix i.e., the main axis <em>( ~ x-axis )</em> and the cross axis <em>( ~ y-axis )</em>. By specifying <q>justify-content</q> property, we can define the alignment across the main axis.
+        </p>
+        <p>
+            for example,
+        </p>
+        <p>
+            <code>
+                .justify-content-center {
+                    justify-content: center;
+                }
+            </code>
+        </p>
+        <div class="container justify-content-center">
+            <div class="box-size box1"><p>box 1</p></div>
+            <div class="box-size box2"><p>box 2</p></div>
+            <div class="box-size box3"><p>box 3</p></div>
+        </div>
+
+        <hr class="hr-80">
+
+        <h3>5) align-items</h3>
+        <p>
+            <q>FlexBox</q> does alignment with help of two asix i.e., the main axis <em>( ~ x-axis )</em> and the cross axis <em>( ~ y-axis )</em>. By specifying <q>align-items</q> property, we can define the alignment across the cross axis.
+        </p>
+        <p>
+            for example,
+        </p>
+        <p>
+            <code>
+                .align-items-center {
+                    align-items: center;
+                }
+            </code>
+        </p>
+        <div class="container align-items-center">
+            <div class="box-size box1"><p>box 1</p></div>
+            <div class="box-size box2"><p>box 2</p></div>
+            <div class="box-size box3"><p>box 3</p></div>
+        </div>
+
+        <hr class="hr-80">
+
+        <h3>6) align-content</h3>
+        <p>
+            while we are using <q>flex-wrap: wrap;</q>, we can see that while wrapping the content according to the new size ( while resizing ) there will some additional space between the content. To remover the additional space, we can use this property,
+        </p>
+        <p>
+            for example,
+        </p>
+        <p>
+            <code>
+                .align-content-center {
+                    align-content: center;
+                }
+            </code>
+        </p>
+        <div class="container flex-wrap-wrap align-content-center">
+            <div class="box-size fixed-box-size box1"><p>box 1</p></div>
+            <div class="box-size fixed-box-size box2"><p>box 2</p></div>
+            <div class="box-size fixed-box-size box3"><p>box 3</p></div>
+        </div>
+
+        <hr class="hr-95">
+
+        <h2>FlexBox - Child properties :</h2>
+
+        <hr class="hr-95">
+
+        <h3>1) Order</h3>
+        <p>
+            <q>order</q> property is used in child whose parent has property <q>display: flex</q>. This property in which order the children elements should be displayed.
+        </p>
+        <p>
+            for example,
+        </p>
+        <p>
+            <code>
+                .order-3{
+                    order: 3;
+                }
+                <br>
+                .order-1{
+                    order: 1;
+                }
+            </code>
+        </p>
+        <div class="container">
+            <div class="box-size box1 order-3"><p>box 1</p></div>
+            <div class="box-size box2"><p>box 2</p></div>
+            <div class="box-size box3 order-1"><p>box 3</p></div>
+        </div>
+
+        <hr class="hr-80">
+
+        <h3>2) align-self</h3>
+        <p>
+            <q>align-self</q> is a property which allows the child element to align itself seperately despite having properties set by its parent element.
+        </p>
+        <p>
+            for example,
+        </p>
+        <p>
+            <code>
+                .align-self-flex-end {
+                    align-self: flex-end;
+                }
+            </code>
+        </p>
+        <div class="container">
+            <div class="box-size box1"><p>box 1</p></div>
+            <div class="box-size box2 align-self-flex-end"><p>box 2</p></div>
+            <div class="box-size box3"><p>box 3</p></div>
+        </div>
+
+        <hr class="hr-80">
+
+        <h3>3) flex-grow</h3>
+        <p>
+            <q>flex-grow</q> is a property which allows the child element to grow and occupy more space than it would.
+        </p>
+        <p>
+            for example,
+        </p>
+        <p>
+            <code>
+                .flex-grow-4 {
+                    flex-grow: 4;
+                }
+            </code>
+        </p>
+        <div class="container">
+            <div class="box-size box1 flex-grow-4"><p>box 1</p></div>
+            <div class="box-size box2"><p>box 2</p></div>
+            <div class="box-size box3"><p>box 3</p></div>
+        </div>
+
+        <hr class="hr-80">
+
+        <h3>4) flex-shrink</h3>
+        <p>
+            <q>flex-shrink</q> is a property quite opposite to the above one <em>( flex-grow )</em>. As the name suggests, this will decrease the size of the child element in cases like overflow.
+        </p>
+        <p>
+            for example,
+        </p>
+        <p>
+            <code>
+                .flex-shrink-5 {
+                    flex-shrink: 5;
+                }
+            </code>
+        </p>
+        <div class="container">
+            <div class="box-size box1"><p>box 1</p></div>
+            <div class="box-size box2 flex-shrink-5"><p>box 2</p></div>
+            <div class="box-size box3"><p>box 3</p></div>
+        </div>
+
     </body>
 
 </html>
