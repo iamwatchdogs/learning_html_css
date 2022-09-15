@@ -2,15 +2,15 @@
 
 ## Instructions:
 
-- [ ] **Create a layout** of your choice using float.
-- [ ] **Create the same layout** in *{Instruction 1}* using **flexbox**.
-- [ ] Create the following **navigation bar** using **flexbox**.
+- [x] **Create a layout** of your choice using float.
+- [x] **Create the same layout** in *{Instruction 1}* using **flexbox**.
+- [x] Create the following **navigation bar** using **flexbox**.
   
 <div align="center">
     <img src="src/Instruct_3_nav_bar.PNG" alt="Navigation Bar from Instruction 3" />
 </div>
 
-- [ ] Create the following **layout using flexbox**.
+- [x] Create the following **layout using flexbox**.
 
 <div align="center">
     <img src="src/Instruct_4_flexbox_layout.PNG" alt="Flex box Layout from Instruction 4" />
@@ -22,8 +22,8 @@
 
 ### Status of Practice Set :
 
-- [ ] Finished :+1:
-- [ ] Verified by [W3C vaildator ](https://validator.w3.org/#validate_by_upload "Goto W3c vaildator")
+- [x] Finished :+1:
+- [x] Verified by [W3C vaildator ](https://validator.w3.org/#validate_by_upload "Goto W3c vaildator")
 
 ---
 
