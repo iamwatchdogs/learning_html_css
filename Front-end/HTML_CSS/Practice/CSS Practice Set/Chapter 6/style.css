@@ -30,7 +30,7 @@ li:hover {
     width: 90vw;
     height: 70vh;
     max-height: 470px;
-    max-width: 758px;
+    max-width: 800px;
     margin: 0 5vw;
     background-color: rgb(192, 106, 45);
     border: 5px solid black;
@@ -44,7 +44,7 @@ li:hover {
     border-radius: 1.5px;
 }
 .box-size {
-    width: 20vw;
+    width: 15vw;
     height: 17vh;
     margin: 5px;
     border: 5px solid black;
