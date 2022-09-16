@@ -25,11 +25,14 @@
 
 ## Result:
 
-> will post after done
+![Camper Cafe](src/result.png "view the image")
 
 ## Used Sources:
 
-> will post after done
+- [Background Image](https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg)
+- [Coffee icon](https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg)
+- [Pie icon](https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg)
+- [Josefin Sans ( Font used )](https://fonts.google.com/specimen/Josefin+Sans)
 
 ### Link:
-> [https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-basic-css-by-building-a-cafe-menu/step-92](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-basic-css-by-building-a-cafe-menu/step-92)
+> [https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-basic-css-by-building-a-cafe-menu/](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-basic-css-by-building-a-cafe-menu/step-92)
